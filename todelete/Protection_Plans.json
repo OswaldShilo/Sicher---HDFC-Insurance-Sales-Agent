@@ -1,0 +1,655 @@
+[
+  {
+    "uin": "Scope",
+    "insurer": "HDFC Life",
+    "policy_name": "HDFC click 2 protect elite plus",
+    "category": "Protection Plan",
+    "type": "Protection Plan",
+    "product_type": "non-linked, pure risk",
+    "sum_assured_options": [
+      250000,
+      500000,
+      1000000
+    ],
+    "premium_examples": {},
+    "purchase_price_range": null,
+    "entry_age_min": null,
+    "entry_age_max": null,
+    "maturity_age": null,
+    "min_cover_term_months": null,
+    "max_cover_term_years": null,
+    "group_size_min": null,
+    "plan_options": [],
+    "cover_types": [],
+    "premium_payment_modes": [
+      "single",
+      "limited",
+      "regular",
+      "monthly",
+      "quarterly",
+      "half-yearly"
+    ],
+    "joint_life_available": false,
+    "surrender_value_available": true,
+    "maturity_benefit": true,
+    "death_benefit": true,
+    "critical_illness_count": null,
+    "has_accidental_death_benefit": false,
+    "exclusions": [
+      "Suicide",
+      "War",
+      "Dental"
+    ],
+    "riders": [
+      {
+        "name": "Non 101B",
+        "premium": 40
+      },
+      {
+        "name": "Non 101B",
+        "premium": 31
+      },
+      {
+        "name": "Non Linked (UIN: 101B",
+        "premium": 32
+      }
+    ],
+    "annuity_payout_frequency": [
+      "monthly",
+      "quarterly",
+      "half-yearly",
+      "yearly"
+    ],
+    "deferment_period_years": null,
+    "return_of_purchase_price": true,
+    "top_up_option": false,
+    "free_look_period_days": null,
+    "grace_period_days": null,
+    "revival_allowed": null,
+    "revival_period_years": null,
+    "policy_loan_available": true,
+    "premium_yearly": {},
+    "eligibility": {
+      "adult_min_age": 18,
+      "adult_max_age": 65
+    },
+    "source_file": "HDFC-click-2-protect-elite-plus.pdf",
+    "content_snippet": "Secure your family with a plan\ndesigned to protect your way of life!\nNEW\nClick 2 Protect Elite Plus\nA Non-Linked, Non-Participating, Individual, Pure Risk Premium/\nSavings Life Insurance Plan\nKey Feat..."
+  },
+  {
+    "uin": "101N096V06",
+    "insurer": "HDFC Life",
+    "policy_name": "HDFC Credit Protect Plus Insurance Plan",
+    "category": "Protection Plan",
+    "type": "Protection Plan",
+    "product_type": "non-linked, non-participating, pure risk",
+    "sum_assured_options": [
+      250000,
+      500000,
+      1000000
+    ],
+    "premium_examples": {},
+    "purchase_price_range": null,
+    "entry_age_min": null,
+    "entry_age_max": null,
+    "maturity_age": null,
+    "min_cover_term_months": 1,
+    "max_cover_term_years": null,
+    "group_size_min": null,
+    "plan_options": [],
+    "cover_types": [
+      "Decreasing Sum Assured"
+    ],
+    "premium_payment_modes": [
+      "single",
+      "limited",
+      "regular",
+      "yearly"
+    ],
+    "joint_life_available": true,
+    "surrender_value_available": true,
+    "maturity_benefit": true,
+    "death_benefit": true,
+    "critical_illness_count": null,
+    "has_accidental_death_benefit": true,
+    "exclusions": [
+      "Suicide",
+      "Pre-existing diseases",
+      "War",
+      "Terrorism",
+      "Nuclear",
+      "Dental",
+      "Self-Inflicted",
+      "Hazardous activities"
+    ],
+    "riders": [
+      {
+        "name": "top-up loans through separate repaym",
+        "premium": 2500
+      },
+      {
+        "name": "critical illness claim has been made in ",
+        "premium": 2500
+      },
+      {
+        "name": "critical illness coverage as well as dea",
+        "premium": 2500
+      }
+    ],
+    "annuity_payout_frequency": [],
+    "deferment_period_years": null,
+    "return_of_purchase_price": true,
+    "top_up_option": false,
+    "free_look_period_days": null,
+    "grace_period_days": null,
+    "revival_allowed": null,
+    "revival_period_years": null,
+    "policy_loan_available": false,
+    "premium_yearly": {},
+    "eligibility": {
+      "adult_min_age": 12,
+      "adult_max_age": 7
+    },
+    "source_file": "HDFC-Credit-Protect-Plus-Insurance-Plan.pdf",
+    "content_snippet": "Secure your business dreams\nfrom uncertainties of life!\nGroup Credit Protect Plus Insurance\nA Non Linked Non Participating Pure Risk Group Life Insurance Product\nThe HDFC Life Group Credit Protect Plu..."
+  },
+  {
+    "uin": null,
+    "insurer": "HDFC Life",
+    "policy_name": "HDFC jeevan suraksha plan",
+    "category": "Protection Plan",
+    "type": "Protection Plan",
+    "product_type": "non-linked, non-participating, pure risk",
+    "sum_assured_options": [
+      250000,
+      500000,
+      1000000
+    ],
+    "premium_examples": {},
+    "purchase_price_range": null,
+    "entry_age_min": null,
+    "entry_age_max": null,
+    "maturity_age": null,
+    "min_cover_term_months": null,
+    "max_cover_term_years": null,
+    "group_size_min": null,
+    "plan_options": [],
+    "cover_types": [],
+    "premium_payment_modes": [
+      "single",
+      "limited",
+      "regular",
+      "monthly",
+      "quarterly",
+      "half-yearly"
+    ],
+    "joint_life_available": false,
+    "surrender_value_available": true,
+    "maturity_benefit": true,
+    "death_benefit": true,
+    "critical_illness_count": null,
+    "has_accidental_death_benefit": false,
+    "exclusions": [
+      "Suicide",
+      "War"
+    ],
+    "riders": [
+      {
+        "name": "Critical Illness",
+        "premium": 3000
+      }
+    ],
+    "annuity_payout_frequency": [
+      "monthly",
+      "quarterly",
+      "half-yearly",
+      "yearly"
+    ],
+    "deferment_period_years": null,
+    "return_of_purchase_price": true,
+    "top_up_option": false,
+    "free_look_period_days": null,
+    "grace_period_days": null,
+    "revival_allowed": null,
+    "revival_period_years": null,
+    "policy_loan_available": false,
+    "premium_yearly": {},
+    "eligibility": {
+      "adult_min_age": 12,
+      "adult_max_age": 10
+    },
+    "source_file": "HDFC-jeevan-suraksha-plan.pdf",
+    "content_snippet": "Ek kadam jo de aapke parivar ko\njeevan bhar suraksha.\nGroup Jeevan Suraksha\nNon Linked, Non Participating Pure Risk Group Term\nMicro-insurance Product\nGroup Jeevan Suraksha\nNon Linked, Non Participati..."
+  },
+  {
+    "uin": null,
+    "insurer": "HDFC Life",
+    "policy_name": "HDFC Life Income Benefit on Accidental Disability Riders",
+    "category": "Protection Plan",
+    "type": "Protection Plan",
+    "product_type": "pure risk",
+    "sum_assured_options": [
+      250000,
+      500000,
+      1000000
+    ],
+    "premium_examples": {},
+    "purchase_price_range": null,
+    "entry_age_min": null,
+    "entry_age_max": null,
+    "maturity_age": null,
+    "min_cover_term_months": null,
+    "max_cover_term_years": null,
+    "group_size_min": null,
+    "plan_options": [],
+    "cover_types": [],
+    "premium_payment_modes": [
+      "single",
+      "limited",
+      "regular",
+      "monthly",
+      "quarterly",
+      "half-yearly"
+    ],
+    "joint_life_available": false,
+    "surrender_value_available": true,
+    "maturity_benefit": false,
+    "death_benefit": false,
+    "critical_illness_count": null,
+    "has_accidental_death_benefit": false,
+    "exclusions": [
+      "Suicide",
+      "Pre-existing diseases",
+      "War",
+      "Terrorism",
+      "Nuclear",
+      "Dental",
+      "Hazardous activities"
+    ],
+    "riders": [
+      {
+        "name": "Critical Illness",
+        "premium": 3000
+      }
+    ],
+    "annuity_payout_frequency": [
+      "monthly",
+      "quarterly",
+      "half-yearly",
+      "yearly"
+    ],
+    "deferment_period_years": null,
+    "return_of_purchase_price": true,
+    "top_up_option": false,
+    "free_look_period_days": null,
+    "grace_period_days": null,
+    "revival_allowed": null,
+    "revival_period_years": null,
+    "policy_loan_available": false,
+    "premium_yearly": {},
+    "eligibility": {
+      "adult_min_age": 18,
+      "adult_max_age": 65
+    },
+    "source_file": "HDFC-Life-Income-Benefit-on-Accidental-Disability-Riders.pdf",
+    "content_snippet": "Experience the pride of providing\nfor their needs. Always!\nHDFC Life\nIncome Benefi t on\nAccidental Disability Rider-Linked\nA Linked, Non- Participating, Pure risk premium, Individual Life rider\nIn thi..."
+  },
+  {
+    "uin": "101G107V02",
+    "insurer": "HDFC Life",
+    "policy_name": "HDFC Pradhan mantri plan",
+    "category": "Protection Plan",
+    "type": "Protection Plan",
+    "product_type": null,
+    "sum_assured_options": [
+      250000,
+      500000,
+      1000000
+    ],
+    "premium_examples": {},
+    "purchase_price_range": null,
+    "entry_age_min": null,
+    "entry_age_max": null,
+    "maturity_age": 19,
+    "min_cover_term_months": null,
+    "max_cover_term_years": null,
+    "group_size_min": null,
+    "plan_options": [],
+    "cover_types": [],
+    "premium_payment_modes": [
+      "limited",
+      "regular",
+      "yearly"
+    ],
+    "joint_life_available": false,
+    "surrender_value_available": false,
+    "maturity_benefit": true,
+    "death_benefit": true,
+    "critical_illness_count": null,
+    "has_accidental_death_benefit": false,
+    "exclusions": [
+      "War"
+    ],
+    "riders": [
+      {
+        "name": "Critical Illness",
+        "premium": 3000
+      }
+    ],
+    "annuity_payout_frequency": [
+      "yearly"
+    ],
+    "deferment_period_years": null,
+    "return_of_purchase_price": true,
+    "top_up_option": false,
+    "free_look_period_days": null,
+    "grace_period_days": null,
+    "revival_allowed": null,
+    "revival_period_years": null,
+    "policy_loan_available": false,
+    "premium_yearly": {},
+    "eligibility": {
+      "adult_min_age": 18,
+      "adult_max_age": 65
+    },
+    "source_file": "HDFC-Pradhan-mantri-plan.pdf",
+    "content_snippet": "Ensure your family’s\ndreams continue\nPradhan Mantri Jeevan Jyoti Bima Yojana Plan\nA Non-Linked Non-Participating Group Term Insurance Plan\nHDFC Life Pradhan Mantri Jeevan Jyoti Bima Yojana Plan is a p..."
+  },
+  {
+    "uin": null,
+    "insurer": "HDFC Life",
+    "policy_name": "HDFC suraksha plan",
+    "category": "Protection Plan",
+    "type": "Protection Plan",
+    "product_type": "non-linked, non-participating, pure risk",
+    "sum_assured_options": [
+      250000,
+      500000,
+      1000000
+    ],
+    "premium_examples": {},
+    "purchase_price_range": null,
+    "entry_age_min": null,
+    "entry_age_max": null,
+    "maturity_age": null,
+    "min_cover_term_months": null,
+    "max_cover_term_years": null,
+    "group_size_min": null,
+    "plan_options": [],
+    "cover_types": [
+      "Decreasing Sum Assured"
+    ],
+    "premium_payment_modes": [
+      "single",
+      "limited",
+      "regular",
+      "monthly",
+      "quarterly",
+      "yearly"
+    ],
+    "joint_life_available": true,
+    "surrender_value_available": true,
+    "maturity_benefit": true,
+    "death_benefit": true,
+    "critical_illness_count": null,
+    "has_accidental_death_benefit": false,
+    "exclusions": [
+      "Suicide",
+      "War",
+      "Terrorism",
+      "Nuclear",
+      "Dental",
+      "Self-Inflicted",
+      "Hazardous activities"
+    ],
+    "riders": [
+      {
+        "name": "Critical Illness",
+        "premium": 3000
+      }
+    ],
+    "annuity_payout_frequency": [
+      "monthly",
+      "quarterly",
+      "half-yearly",
+      "yearly"
+    ],
+    "deferment_period_years": null,
+    "return_of_purchase_price": true,
+    "top_up_option": false,
+    "free_look_period_days": null,
+    "grace_period_days": null,
+    "revival_allowed": null,
+    "revival_period_years": null,
+    "policy_loan_available": false,
+    "premium_yearly": {},
+    "eligibility": {
+      "adult_min_age": 12,
+      "adult_max_age": 5
+    },
+    "source_file": "HDFC-suraksha-plan.pdf",
+    "content_snippet": "Secure your family’s happiness\nfrom loan worries\nGroup Suraksha\nA Non Linked, Non Participating Pure Risk Group Term\nMicro Life Insurance Product\nGroup Suraksha\nA Non Linked, Non Participating Pure Ri..."
+  },
+  {
+    "uin": "Scope",
+    "insurer": "HDFC Life",
+    "policy_name": "HDFC Term Insurance Plan",
+    "category": "Protection Plan",
+    "type": "Protection Plan",
+    "product_type": "non-linked, non-participating, pure risk",
+    "sum_assured_options": [
+      250000,
+      500000,
+      1000000
+    ],
+    "premium_examples": {},
+    "purchase_price_range": null,
+    "entry_age_min": null,
+    "entry_age_max": null,
+    "maturity_age": 17,
+    "min_cover_term_months": null,
+    "max_cover_term_years": null,
+    "group_size_min": null,
+    "plan_options": [],
+    "cover_types": [],
+    "premium_payment_modes": [
+      "single",
+      "limited",
+      "monthly",
+      "quarterly",
+      "half-yearly",
+      "yearly"
+    ],
+    "joint_life_available": false,
+    "surrender_value_available": true,
+    "maturity_benefit": false,
+    "death_benefit": true,
+    "critical_illness_count": null,
+    "has_accidental_death_benefit": false,
+    "exclusions": [
+      "Suicide",
+      "War",
+      "Dental"
+    ],
+    "riders": [
+      {
+        "name": "Personal Accident insurance.",
+        "premium": 2500
+      },
+      {
+        "name": "Critical Illness",
+        "premium": 2500
+      },
+      {
+        "name": "Critical Illness-",
+        "premium": 2500
+      }
+    ],
+    "annuity_payout_frequency": [
+      "monthly",
+      "quarterly",
+      "half-yearly",
+      "yearly"
+    ],
+    "deferment_period_years": null,
+    "return_of_purchase_price": true,
+    "top_up_option": false,
+    "free_look_period_days": null,
+    "grace_period_days": null,
+    "revival_allowed": null,
+    "revival_period_years": null,
+    "policy_loan_available": false,
+    "premium_yearly": {},
+    "eligibility": {
+      "adult_min_age": 18,
+      "adult_max_age": 65
+    },
+    "source_file": "HDFC-Term-Insurance-Plan.pdf",
+    "content_snippet": "Protect your employees from\nuncertainties and enjoy tax benefi ts*.\nHDFC Life Group Term Insurance\nA Non-Linked Non Participating Life Group Pure Risk Product\n*As per Income Tax Act, 1961. Tax benefi ..."
+  },
+  {
+    "uin": "101N138V03",
+    "insurer": "HDFC Life",
+    "policy_name": "HDFC poorna credit suraksha",
+    "category": "Protection Plan",
+    "type": "Protection Plan",
+    "product_type": "non-linked, non-participating, pure risk",
+    "sum_assured_options": [
+      250000,
+      500000,
+      1000000
+    ],
+    "premium_examples": {},
+    "purchase_price_range": null,
+    "entry_age_min": null,
+    "entry_age_max": null,
+    "maturity_age": null,
+    "min_cover_term_months": null,
+    "max_cover_term_years": null,
+    "group_size_min": null,
+    "plan_options": [],
+    "cover_types": [],
+    "premium_payment_modes": [
+      "single",
+      "limited",
+      "regular",
+      "monthly",
+      "quarterly",
+      "yearly"
+    ],
+    "joint_life_available": true,
+    "surrender_value_available": true,
+    "maturity_benefit": true,
+    "death_benefit": true,
+    "critical_illness_count": null,
+    "has_accidental_death_benefit": false,
+    "exclusions": [
+      "Suicide",
+      "Pre-existing diseases"
+    ],
+    "riders": [
+      {
+        "name": "Critical Illness payable shall be tthhee",
+        "premium": 2500
+      },
+      {
+        "name": "critical illness.",
+        "premium": 2500
+      },
+      {
+        "name": "Critical Illness (CI) Benefit",
+        "premium": 2500
+      }
+    ],
+    "annuity_payout_frequency": [
+      "monthly",
+      "quarterly",
+      "yearly"
+    ],
+    "deferment_period_years": null,
+    "return_of_purchase_price": true,
+    "top_up_option": false,
+    "free_look_period_days": null,
+    "grace_period_days": null,
+    "revival_allowed": null,
+    "revival_period_years": null,
+    "policy_loan_available": true,
+    "premium_yearly": {},
+    "eligibility": {
+      "adult_min_age": 12,
+      "adult_max_age": 7
+    },
+    "source_file": "HDFC_poorna_credit_suraksha.pdf",
+    "content_snippet": "HDFC Life Group Poorna Credit SSuurraakksshhaa ((UUIINN –101N138V03)\nAppendix 8 - Sales Literature\nA non linked non participating ppuurree rriisskk group credit life insurance plan\nHHDDFFCC LLiiffee G..."
+  },
+  {
+    "uin": "Scope",
+    "insurer": "HDFC Life",
+    "policy_name": "HDFC term life plan",
+    "category": "Protection Plan",
+    "type": "Protection Plan",
+    "product_type": "non-participating, pure risk",
+    "sum_assured_options": [
+      250000,
+      500000,
+      1000000
+    ],
+    "premium_examples": {},
+    "purchase_price_range": null,
+    "entry_age_min": null,
+    "entry_age_max": null,
+    "maturity_age": null,
+    "min_cover_term_months": null,
+    "max_cover_term_years": null,
+    "group_size_min": null,
+    "plan_options": [],
+    "cover_types": [],
+    "premium_payment_modes": [
+      "limited",
+      "monthly",
+      "quarterly",
+      "half-yearly",
+      "yearly"
+    ],
+    "joint_life_available": false,
+    "surrender_value_available": true,
+    "maturity_benefit": false,
+    "death_benefit": true,
+    "critical_illness_count": null,
+    "has_accidental_death_benefit": true,
+    "exclusions": [
+      "Suicide",
+      "War",
+      "Dental",
+      "Self-Inflicted",
+      "Hazardous activities"
+    ],
+    "riders": [
+      {
+        "name": "Critical Illness Plus Rider (UIN: 101B01",
+        "premium": 2500
+      }
+    ],
+    "annuity_payout_frequency": [
+      "monthly",
+      "quarterly",
+      "half-yearly",
+      "yearly"
+    ],
+    "deferment_period_years": null,
+    "return_of_purchase_price": true,
+    "top_up_option": false,
+    "free_look_period_days": null,
+    "grace_period_days": null,
+    "revival_allowed": null,
+    "revival_period_years": null,
+    "policy_loan_available": false,
+    "premium_yearly": {},
+    "eligibility": {
+      "adult_min_age": 18,
+      "adult_max_age": 65
+    },
+    "source_file": "HDFC_term_life_plan.pdf",
+    "content_snippet": "Ensure financial security\nfor your employees\nGroup Term Life\nNon-Linked, Non- Participating Life Group Pure Risk Product\nGroup Term Life\nNon-Linked, Non- Participating Life Group Pure Risk Product\nWha..."
+  }
+]

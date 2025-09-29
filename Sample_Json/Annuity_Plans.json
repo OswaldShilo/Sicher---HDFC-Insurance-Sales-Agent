@@ -1,0 +1,266 @@
+[
+  {
+    "insurer": "HDFC Life",
+    "policy_name": "HDFC Life Pension Guaranteed Plan",
+    "type": "Annuity Plan",
+    "category": "Annuity Plan",
+    "sum_insured": [
+      250000,
+      500000,
+      1000000
+    ],
+    "premium_yearly": {
+      "1800": 1800,
+      "1874": 1874,
+      "1938": 1938,
+      "1961": 1961
+    },
+    "eligibility": {
+      "adult_min_age": 12,
+      "adult_max_age": 10
+    },
+    "waiting_period": {
+      "initial_days": 30,
+      "pre_existing_months": 24
+    },
+    "exclusions": [
+      "Cosmetic procedures",
+      "Self-inflicted injuries",
+      "Dental treatment (unless accident-related)"
+    ],
+    "riders": [
+      {
+        "name": "Top Up",
+        "premium": 2500
+      },
+      {
+        "name": "Top Up",
+        "premium": 2500
+      },
+      {
+        "name": "top-up",
+        "premium": 2500
+      }
+    ],
+    "ai_enrichment": {
+      "key_features": [
+        "Comprehensive coverage",
+        "Flexible premium options",
+        "Family protection"
+      ],
+      "benefits": {
+        "death_benefit": "Sum assured on death",
+        "maturity_benefit": "Survival benefit as per policy terms"
+      },
+      "plan_details": {
+        "policy_term_range": "10-40 years",
+        "premium_payment_modes": [
+          "yearly",
+          "monthly",
+          "quarterly"
+        ],
+        "unique_features": [
+          "Tax benefits",
+          "Flexible payment options",
+          "Comprehensive coverage"
+        ]
+      },
+      "claims_settlement": {
+        "settlement_time": "15-30 days",
+        "process": "Simplified claims process with minimal documentation"
+      }
+    }
+  },
+  {
+    "insurer": "HDFC Life",
+    "policy_name": "HDFC Life Smart Pension Plus",
+    "type": "Annuity Plan",
+    "category": "Annuity Plan",
+    "sum_insured": [
+      250000,
+      500000,
+      1000000
+    ],
+    "premium_yearly": {
+      "1800": 1800,
+      "1874": 1874,
+      "1938": 1938,
+      "1999": 1999
+    },
+    "eligibility": {
+      "adult_min_age": 12,
+      "adult_max_age": 15
+    },
+    "waiting_period": {
+      "initial_days": 30,
+      "pre_existing_months": 24
+    },
+    "exclusions": [
+      "Cosmetic procedures",
+      "Self-inflicted injuries",
+      "Dental treatment (unless accident-related)"
+    ],
+    "riders": [
+      {
+        "name": "Critical Illness",
+        "premium": 3000
+      }
+    ],
+    "ai_enrichment": {
+      "key_features": [
+        "Comprehensive coverage",
+        "Flexible premium options",
+        "Family protection"
+      ],
+      "benefits": {
+        "death_benefit": "Sum assured on death",
+        "maturity_benefit": "Survival benefit as per policy terms"
+      },
+      "plan_details": {
+        "policy_term_range": "10-40 years",
+        "premium_payment_modes": [
+          "yearly",
+          "monthly",
+          "quarterly"
+        ],
+        "unique_features": [
+          "Tax benefits",
+          "Flexible payment options",
+          "Comprehensive coverage"
+        ]
+      },
+      "claims_settlement": {
+        "settlement_time": "15-30 days",
+        "process": "Simplified claims process with minimal documentation"
+      }
+    }
+  },
+  {
+    "insurer": "HDFC Life",
+    "policy_name": "HDFC Life Systematic Pension Plan Brochure",
+    "type": "Annuity Plan",
+    "category": "Annuity Plan",
+    "sum_insured": [
+      250000,
+      500000,
+      1000000
+    ],
+    "premium_yearly": {
+      "1800": 1800,
+      "1874": 1874,
+      "1938": 1938,
+      "1961": 1961
+    },
+    "eligibility": {
+      "adult_min_age": 12,
+      "adult_max_age": 45
+    },
+    "waiting_period": {
+      "initial_days": 30,
+      "pre_existing_months": 24
+    },
+    "exclusions": [
+      "Cosmetic procedures",
+      "Self-inflicted injuries",
+      "Dental treatment (unless accident-related)"
+    ],
+    "riders": [
+      {
+        "name": "critical illness",
+        "premium": 2500
+      }
+    ],
+    "ai_enrichment": {
+      "key_features": [
+        "Comprehensive coverage",
+        "Flexible premium options",
+        "Family protection"
+      ],
+      "benefits": {
+        "death_benefit": "Sum assured on death",
+        "maturity_benefit": "Survival benefit as per policy terms"
+      },
+      "plan_details": {
+        "policy_term_range": "10-40 years",
+        "premium_payment_modes": [
+          "yearly",
+          "monthly",
+          "quarterly"
+        ],
+        "unique_features": [
+          "Tax benefits",
+          "Flexible payment options",
+          "Comprehensive coverage"
+        ]
+      },
+      "claims_settlement": {
+        "settlement_time": "15-30 days",
+        "process": "Simplified claims process with minimal documentation"
+      }
+    }
+  },
+  {
+    "insurer": "HDFC Life",
+    "policy_name": "HDFC systematic retirement plan",
+    "type": "Annuity Plan",
+    "category": "Annuity Plan",
+    "sum_insured": [
+      250000,
+      500000,
+      1000000
+    ],
+    "premium_yearly": {
+      "1800": 1800,
+      "1874": 1874,
+      "1938": 1938,
+      "1961": 1961
+    },
+    "eligibility": {
+      "adult_min_age": 18,
+      "adult_max_age": 65
+    },
+    "waiting_period": {
+      "initial_days": 30,
+      "pre_existing_months": 24
+    },
+    "exclusions": [
+      "Cosmetic procedures",
+      "Self-inflicted injuries",
+      "Dental treatment (unless accident-related)"
+    ],
+    "riders": [
+      {
+        "name": "Critical Illness",
+        "premium": 3000
+      }
+    ],
+    "ai_enrichment": {
+      "key_features": [
+        "Comprehensive coverage",
+        "Flexible premium options",
+        "Family protection"
+      ],
+      "benefits": {
+        "death_benefit": "Sum assured on death",
+        "maturity_benefit": "Survival benefit as per policy terms"
+      },
+      "plan_details": {
+        "policy_term_range": "10-40 years",
+        "premium_payment_modes": [
+          "yearly",
+          "monthly",
+          "quarterly"
+        ],
+        "unique_features": [
+          "Tax benefits",
+          "Flexible payment options",
+          "Comprehensive coverage"
+        ]
+      },
+      "claims_settlement": {
+        "settlement_time": "15-30 days",
+        "process": "Simplified claims process with minimal documentation"
+      }
+    }
+  }
+]

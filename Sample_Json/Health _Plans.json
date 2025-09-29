@@ -1,0 +1,145 @@
+[
+  {
+    "insurer": "HDFC Life",
+    "policy_name": "0140217024 HDFC Life Group Critical Illness Plus Rider",
+    "type": "Health Plan",
+    "category": "Health Plan",
+    "sum_insured": [
+      250000,
+      500000,
+      1000000
+    ],
+    "premium_yearly": {
+      "1800": 1800,
+      "1874": 1874,
+      "1938": 1938,
+      "1961": 1961
+    },
+    "eligibility": {
+      "adult_min_age": 18,
+      "adult_max_age": 65
+    },
+    "waiting_period": {
+      "initial_days": 30,
+      "pre_existing_months": 24
+    },
+    "exclusions": [
+      "Cosmetic procedures",
+      "Self-inflicted injuries",
+      "Dental treatment (unless accident-related)"
+    ],
+    "riders": [
+      {
+        "name": "Critical Illness",
+        "premium": 2500
+      },
+      {
+        "name": "Critical Illness",
+        "premium": 2500
+      },
+      {
+        "name": "Critical Illness",
+        "premium": 2500
+      }
+    ],
+    "ai_enrichment": {
+      "key_features": [
+        "Comprehensive coverage",
+        "Flexible premium options",
+        "Family protection"
+      ],
+      "benefits": {
+        "death_benefit": "Sum assured on death",
+        "maturity_benefit": "Survival benefit as per policy terms"
+      },
+      "plan_details": {
+        "policy_term_range": "10-40 years",
+        "premium_payment_modes": [
+          "yearly",
+          "monthly",
+          "quarterly"
+        ],
+        "unique_features": [
+          "Tax benefits",
+          "Flexible payment options",
+          "Comprehensive coverage"
+        ]
+      },
+      "claims_settlement": {
+        "settlement_time": "15-30 days",
+        "process": "Simplified claims process with minimal documentation"
+      }
+    }
+  },
+  {
+    "insurer": "HDFC Life",
+    "policy_name": "HDFC Life Group Health Shield",
+    "type": "Health Plan",
+    "category": "Health Plan",
+    "sum_insured": [
+      250000,
+      500000,
+      1000000
+    ],
+    "premium_yearly": {
+      "1800": 1800,
+      "1860": 1860,
+      "1938": 1938,
+      "1961": 1961
+    },
+    "eligibility": {
+      "adult_min_age": 18,
+      "adult_max_age": 65
+    },
+    "waiting_period": {
+      "initial_days": 30,
+      "pre_existing_months": 24
+    },
+    "exclusions": [
+      "Dental Treatment",
+      "Self-Inflicted Injuries"
+    ],
+    "riders": [
+      {
+        "name": "Critical Illness",
+        "premium": 2500
+      },
+      {
+        "name": "Critical illness",
+        "premium": 2500
+      },
+      {
+        "name": "Personal Accident",
+        "premium": 2500
+      }
+    ],
+    "ai_enrichment": {
+      "key_features": [
+        "Comprehensive coverage",
+        "Flexible premium options",
+        "Family protection"
+      ],
+      "benefits": {
+        "death_benefit": "Sum assured on death",
+        "maturity_benefit": "Survival benefit as per policy terms"
+      },
+      "plan_details": {
+        "policy_term_range": "10-40 years",
+        "premium_payment_modes": [
+          "yearly",
+          "monthly",
+          "quarterly"
+        ],
+        "unique_features": [
+          "Tax benefits",
+          "Flexible payment options",
+          "Comprehensive coverage"
+        ]
+      },
+      "claims_settlement": {
+        "settlement_time": "15-30 days",
+        "process": "Simplified claims process with minimal documentation"
+      }
+    }
+  }
+]

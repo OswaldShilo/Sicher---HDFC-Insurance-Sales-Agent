@@ -1,0 +1,163 @@
+[
+  {
+    "uin": "101N005V08",
+    "insurer": "HDFC Life",
+    "policy_name": "0140217024 HDFC Life Group Critical Illness Plus Rider",
+    "category": "Health Plan",
+    "type": "Health Plan",
+    "product_type": "non-linked, pure risk",
+    "sum_assured_options": [
+      250000,
+      500000,
+      1000000
+    ],
+    "premium_examples": {},
+    "purchase_price_range": null,
+    "entry_age_min": null,
+    "entry_age_max": null,
+    "maturity_age": null,
+    "min_cover_term_months": null,
+    "max_cover_term_years": null,
+    "group_size_min": null,
+    "plan_options": [],
+    "cover_types": [],
+    "premium_payment_modes": [
+      "limited",
+      "regular",
+      "monthly",
+      "quarterly",
+      "yearly"
+    ],
+    "joint_life_available": false,
+    "surrender_value_available": true,
+    "maturity_benefit": true,
+    "death_benefit": true,
+    "critical_illness_count": null,
+    "has_accidental_death_benefit": false,
+    "exclusions": [
+      "Suicide",
+      "Pre-existing diseases",
+      "War",
+      "Nuclear",
+      "Dental",
+      "Self-Inflicted"
+    ],
+    "riders": [
+      {
+        "name": "Critical Illness Plus Rider",
+        "premium": 2500
+      },
+      {
+        "name": "critical illness? Being",
+        "premium": 2500
+      },
+      {
+        "name": "Critical Illness Plus Rider financially ",
+        "premium": 2500
+      }
+    ],
+    "annuity_payout_frequency": [
+      "monthly",
+      "quarterly",
+      "yearly"
+    ],
+    "deferment_period_years": null,
+    "return_of_purchase_price": true,
+    "top_up_option": false,
+    "free_look_period_days": null,
+    "grace_period_days": null,
+    "revival_allowed": null,
+    "revival_period_years": null,
+    "policy_loan_available": false,
+    "premium_yearly": {},
+    "eligibility": {
+      "adult_min_age": 18,
+      "adult_max_age": 65
+    },
+    "source_file": "0140217024-HDFC-Life-Group-Critical-Illness-Plus-Rider.pdf",
+    "content_snippet": "Ensure you are covered\nagainst 19 Critical Illnesses\nGroup Critical Illness Plus Rider\nA non linked non-participating health group pure risk rider\nBenefit on diagnosis of any of the 19 listed Critical..."
+  },
+  {
+    "uin": null,
+    "insurer": "HDFC Life",
+    "policy_name": "HDFC Life Group Health Shield",
+    "category": "Health Plan",
+    "type": "Health Plan",
+    "product_type": "non-linked, non-participating, pure risk",
+    "sum_assured_options": [
+      250000,
+      500000,
+      1000000
+    ],
+    "premium_examples": {},
+    "purchase_price_range": null,
+    "entry_age_min": null,
+    "entry_age_max": null,
+    "maturity_age": null,
+    "min_cover_term_months": null,
+    "max_cover_term_years": null,
+    "group_size_min": 7,
+    "plan_options": [],
+    "cover_types": [],
+    "premium_payment_modes": [
+      "single",
+      "limited",
+      "regular",
+      "monthly",
+      "quarterly",
+      "yearly"
+    ],
+    "joint_life_available": false,
+    "surrender_value_available": true,
+    "maturity_benefit": true,
+    "death_benefit": true,
+    "critical_illness_count": null,
+    "has_accidental_death_benefit": true,
+    "exclusions": [
+      "Suicide",
+      "Pre-existing diseases",
+      "War",
+      "Terrorism",
+      "Nuclear",
+      "Cosmetic procedures",
+      "Dental",
+      "Self-Inflicted",
+      "Hazardous activities"
+    ],
+    "riders": [
+      {
+        "name": "Critical Illness Benefit",
+        "premium": 2500
+      },
+      {
+        "name": "Personal Accident Benefit Cancer Benefit",
+        "premium": 2500
+      },
+      {
+        "name": "Critical Illness Benefit",
+        "premium": 2500
+      }
+    ],
+    "annuity_payout_frequency": [
+      "monthly",
+      "quarterly",
+      "half-yearly",
+      "yearly"
+    ],
+    "deferment_period_years": null,
+    "return_of_purchase_price": true,
+    "top_up_option": false,
+    "free_look_period_days": null,
+    "grace_period_days": null,
+    "revival_allowed": null,
+    "revival_period_years": null,
+    "policy_loan_available": false,
+    "premium_yearly": {},
+    "eligibility": {
+      "adult_min_age": 18,
+      "adult_max_age": 65
+    },
+    "source_file": "HDFC-Life-Group-Health-Shield.pdf",
+    "content_snippet": "A plan that values your employees’\nhealth as much as you do.\nGroup Health Shield\nNon Linked, Non Participating Fixed Benefit, Pure Risk, Group Health Insurance Plan\nA health insurance that protects yo..."
+  }
+]

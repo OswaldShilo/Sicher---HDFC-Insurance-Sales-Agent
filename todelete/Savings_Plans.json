@@ -1,0 +1,359 @@
+[
+  {
+    "uin": "Scope",
+    "insurer": "HDFC Life",
+    "policy_name": "HDFC ASSURED GAIN PLUS BROCHURE",
+    "category": "Savings Plan",
+    "type": "Savings Plan",
+    "product_type": "non-linked, pure risk",
+    "sum_assured_options": [
+      250000,
+      500000,
+      1000000
+    ],
+    "premium_examples": {},
+    "purchase_price_range": null,
+    "entry_age_min": null,
+    "entry_age_max": null,
+    "maturity_age": 18,
+    "min_cover_term_months": null,
+    "max_cover_term_years": null,
+    "group_size_min": null,
+    "plan_options": [],
+    "cover_types": [],
+    "premium_payment_modes": [
+      "single",
+      "limited",
+      "monthly",
+      "quarterly",
+      "half-yearly",
+      "yearly"
+    ],
+    "joint_life_available": false,
+    "surrender_value_available": true,
+    "maturity_benefit": true,
+    "death_benefit": true,
+    "critical_illness_count": null,
+    "has_accidental_death_benefit": false,
+    "exclusions": [
+      "Suicide",
+      "War",
+      "Dental"
+    ],
+    "riders": [
+      {
+        "name": "Critical Illness",
+        "premium": 3000
+      }
+    ],
+    "annuity_payout_frequency": [
+      "monthly",
+      "quarterly",
+      "half-yearly",
+      "yearly"
+    ],
+    "deferment_period_years": null,
+    "return_of_purchase_price": true,
+    "top_up_option": false,
+    "free_look_period_days": null,
+    "grace_period_days": null,
+    "revival_allowed": null,
+    "revival_period_years": null,
+    "policy_loan_available": true,
+    "premium_yearly": {},
+    "eligibility": {
+      "adult_min_age": 18,
+      "adult_max_age": 65
+    },
+    "source_file": "HDFC-ASSURED-GAIN-PLUS-BROCHURE.pdf",
+    "content_snippet": "Plan for an exclusive life with\nAssured Gain Plus.\nGet assured gains with consistent growth.\nLife Insurance Cover for Guaranteed^ Potential upside Enhanced protection\nthe full policy term while Sum As..."
+  },
+  {
+    "uin": "101N131V04",
+    "insurer": "HDFC Life",
+    "policy_name": "HDFC Life Guaranteed Savings Plan Brochure Retail",
+    "category": "Savings Plan",
+    "type": "Savings Plan",
+    "product_type": null,
+    "sum_assured_options": [
+      250000,
+      500000,
+      1000000
+    ],
+    "premium_examples": {},
+    "purchase_price_range": null,
+    "entry_age_min": null,
+    "entry_age_max": null,
+    "maturity_age": null,
+    "min_cover_term_months": null,
+    "max_cover_term_years": null,
+    "group_size_min": null,
+    "plan_options": [],
+    "cover_types": [],
+    "premium_payment_modes": [
+      "single",
+      "limited",
+      "regular",
+      "monthly",
+      "quarterly",
+      "half-yearly"
+    ],
+    "joint_life_available": false,
+    "surrender_value_available": true,
+    "maturity_benefit": true,
+    "death_benefit": true,
+    "critical_illness_count": null,
+    "has_accidental_death_benefit": false,
+    "exclusions": [
+      "Suicide",
+      "War",
+      "Dental",
+      "Self-Inflicted"
+    ],
+    "riders": [
+      {
+        "name": "Critical Illness",
+        "premium": 3000
+      }
+    ],
+    "annuity_payout_frequency": [
+      "monthly",
+      "quarterly",
+      "half-yearly",
+      "yearly"
+    ],
+    "deferment_period_years": null,
+    "return_of_purchase_price": true,
+    "top_up_option": false,
+    "free_look_period_days": null,
+    "grace_period_days": null,
+    "revival_allowed": null,
+    "revival_period_years": null,
+    "policy_loan_available": true,
+    "premium_yearly": {},
+    "eligibility": {
+      "adult_min_age": 18,
+      "adult_max_age": 65
+    },
+    "source_file": "HDFC-Life-Guaranteed-Savings-Plan_Brochure_Retail.pdf",
+    "content_snippet": "Choti bachat,\naapke bade kharchon ke liye.\nGuaranteed Savings Plan\nAn Individual Non-Linked Non-Participating Savings Life Insurance Plan\nAffordable Hassle free issuance Guaranteed Maturity\nPremiums s..."
+  },
+  {
+    "uin": "Scope",
+    "insurer": "HDFC Life",
+    "policy_name": "HDFC Life SARAL JEEVAN BROCHURE",
+    "category": "Savings Plan",
+    "type": "Savings Plan",
+    "product_type": "non-linked, pure risk",
+    "sum_assured_options": [
+      250000,
+      500000,
+      1000000
+    ],
+    "premium_examples": {},
+    "purchase_price_range": null,
+    "entry_age_min": null,
+    "entry_age_max": null,
+    "maturity_age": 18,
+    "min_cover_term_months": null,
+    "max_cover_term_years": null,
+    "group_size_min": null,
+    "plan_options": [
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12 years",
+      "Premium PaymentTerm"
+    ],
+    "cover_types": [],
+    "premium_payment_modes": [
+      "limited",
+      "regular",
+      "monthly",
+      "quarterly",
+      "half-yearly",
+      "yearly"
+    ],
+    "joint_life_available": false,
+    "surrender_value_available": true,
+    "maturity_benefit": true,
+    "death_benefit": true,
+    "critical_illness_count": null,
+    "has_accidental_death_benefit": false,
+    "exclusions": [
+      "Suicide",
+      "War",
+      "Dental"
+    ],
+    "riders": [
+      {
+        "name": "Critical Illness",
+        "premium": 3000
+      }
+    ],
+    "annuity_payout_frequency": [
+      "monthly",
+      "quarterly",
+      "half-yearly",
+      "yearly"
+    ],
+    "deferment_period_years": null,
+    "return_of_purchase_price": true,
+    "top_up_option": false,
+    "free_look_period_days": null,
+    "grace_period_days": null,
+    "revival_allowed": null,
+    "revival_period_years": null,
+    "policy_loan_available": true,
+    "premium_yearly": {},
+    "eligibility": {
+      "adult_min_age": 12,
+      "adult_max_age": 20
+    },
+    "source_file": "HDFC-Life-SARAL-JEEVAN-BROCHURE.pdf",
+    "content_snippet": "Securing your dreams is now easy\nwith guaranteed* returns.\nSaral Jeevan\nAn Individual Non-Linked Non-Participating Savings Life\nInsurance Plan\nGuaranteed * Flexible premium Tax Benefit^\nreturns paymen..."
+  },
+  {
+    "uin": "Scope",
+    "insurer": "HDFC Life",
+    "policy_name": "HDFC Life SMART INCOME Brochure",
+    "category": "Savings Plan",
+    "type": "Savings Plan",
+    "product_type": "non-linked, pure risk",
+    "sum_assured_options": [
+      250000,
+      500000,
+      1000000
+    ],
+    "premium_examples": {},
+    "purchase_price_range": null,
+    "entry_age_min": null,
+    "entry_age_max": null,
+    "maturity_age": null,
+    "min_cover_term_months": null,
+    "max_cover_term_years": null,
+    "group_size_min": null,
+    "plan_options": [],
+    "cover_types": [],
+    "premium_payment_modes": [
+      "single",
+      "limited",
+      "regular",
+      "monthly",
+      "quarterly",
+      "half-yearly"
+    ],
+    "joint_life_available": false,
+    "surrender_value_available": true,
+    "maturity_benefit": false,
+    "death_benefit": false,
+    "critical_illness_count": null,
+    "has_accidental_death_benefit": false,
+    "exclusions": [
+      "Suicide",
+      "War",
+      "Dental"
+    ],
+    "riders": [
+      {
+        "name": "Critical Illness",
+        "premium": 3000
+      }
+    ],
+    "annuity_payout_frequency": [
+      "monthly",
+      "quarterly",
+      "half-yearly",
+      "yearly"
+    ],
+    "deferment_period_years": null,
+    "return_of_purchase_price": true,
+    "top_up_option": false,
+    "free_look_period_days": null,
+    "grace_period_days": null,
+    "revival_allowed": null,
+    "revival_period_years": null,
+    "policy_loan_available": true,
+    "premium_yearly": {},
+    "eligibility": {
+      "adult_min_age": 18,
+      "adult_max_age": 65
+    },
+    "source_file": "HDFC-Life-SMART-INCOME-Brochure.pdf",
+    "content_snippet": "Cherish today’s little moments &\ncreate tomorrow’s precious memories\nwith Smart Income!\nEnhanced Maturity: Enhanced Income:\nGuaranteed Income Benefi t# + Guaranteed Income Benefi t# +\nSimple Reversion..."
+  },
+  {
+    "uin": "Scope",
+    "insurer": "HDFC Life",
+    "policy_name": "HDFC SAMPOORNA JEEVAN BROCHURE",
+    "category": "Savings Plan",
+    "type": "Savings Plan",
+    "product_type": "non-linked, pure risk",
+    "sum_assured_options": [
+      1000000,
+      5000000
+    ],
+    "premium_examples": {},
+    "purchase_price_range": null,
+    "entry_age_min": null,
+    "entry_age_max": null,
+    "maturity_age": null,
+    "min_cover_term_months": null,
+    "max_cover_term_years": null,
+    "group_size_min": null,
+    "plan_options": [
+      "28 years",
+      "Sampoorna Jeevan 100 Variant"
+    ],
+    "cover_types": [],
+    "premium_payment_modes": [
+      "single",
+      "limited",
+      "regular",
+      "monthly",
+      "quarterly",
+      "half-yearly"
+    ],
+    "joint_life_available": false,
+    "surrender_value_available": true,
+    "maturity_benefit": true,
+    "death_benefit": true,
+    "critical_illness_count": null,
+    "has_accidental_death_benefit": false,
+    "exclusions": [
+      "Suicide",
+      "War",
+      "Dental"
+    ],
+    "riders": [
+      {
+        "name": "Critical Illness",
+        "premium": 3000
+      }
+    ],
+    "annuity_payout_frequency": [
+      "monthly",
+      "quarterly",
+      "half-yearly",
+      "yearly"
+    ],
+    "deferment_period_years": null,
+    "return_of_purchase_price": true,
+    "top_up_option": false,
+    "free_look_period_days": null,
+    "grace_period_days": null,
+    "revival_allowed": null,
+    "revival_period_years": null,
+    "policy_loan_available": true,
+    "premium_yearly": {},
+    "eligibility": {
+      "adult_min_age": 18,
+      "adult_max_age": 65
+    },
+    "source_file": "HDFC-SAMPOORNA-JEEVAN-BROCHURE.pdf",
+    "content_snippet": "Secure your future and meet today’s\ngoals with an immediate income solution.\nSampoorna Jeevan\nAn Individual Non-Linked Participating Savings Life Insurance Plan\nfrom*\n1stPOLICY\nMONTH\nChoose up to High..."
+  }
+]

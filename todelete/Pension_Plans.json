@@ -1,0 +1,594 @@
+[
+  {
+    "uin": "101L185V02",
+    "insurer": "HDFC Life",
+    "policy_name": "0132667023 HDFC Life Group Unit Linked Future Secure Plan",
+    "category": "Pension Plan",
+    "type": "Pension Plan",
+    "product_type": "non-participating",
+    "sum_assured_options": [
+      250000,
+      500000,
+      1000000
+    ],
+    "premium_examples": {},
+    "purchase_price_range": null,
+    "entry_age_min": null,
+    "entry_age_max": null,
+    "maturity_age": null,
+    "min_cover_term_months": null,
+    "max_cover_term_years": null,
+    "group_size_min": null,
+    "plan_options": [],
+    "cover_types": [],
+    "premium_payment_modes": [
+      "single",
+      "limited",
+      "regular",
+      "monthly"
+    ],
+    "joint_life_available": false,
+    "surrender_value_available": true,
+    "maturity_benefit": false,
+    "death_benefit": true,
+    "critical_illness_count": null,
+    "has_accidental_death_benefit": false,
+    "exclusions": [
+      "Suicide",
+      "War"
+    ],
+    "riders": [
+      {
+        "name": "Top-up",
+        "premium": 2500
+      },
+      {
+        "name": "TOP-UP PREMIUMS",
+        "premium": 2500
+      },
+      {
+        "name": "Top-Up Premium shall be allowed, onl",
+        "premium": 2500
+      }
+    ],
+    "annuity_payout_frequency": [
+      "monthly",
+      "yearly"
+    ],
+    "deferment_period_years": null,
+    "return_of_purchase_price": true,
+    "top_up_option": false,
+    "free_look_period_days": null,
+    "grace_period_days": null,
+    "revival_allowed": null,
+    "revival_period_years": null,
+    "policy_loan_available": false,
+    "premium_yearly": {},
+    "eligibility": {
+      "adult_min_age": 18,
+      "adult_max_age": 65
+    },
+    "source_file": "0132667023-HDFC-Life-Group-Unit-Linked-Future-Secure-Plan.pdf",
+    "content_snippet": "ALL UNIT LINKED POLICIES ARE DIFFERENT FROM TRADITIONAL INSURANCE POLICIES AND ARE\nSUBJECT TO DIFFERENT RISK FACTORS. IN THIS POLICY, THE INVESTMENT RISK IN INVESTMENT\nPORTFOLIO IS BORNE BY THE POLICY..."
+  },
+  {
+    "uin": "101L170V02",
+    "insurer": "HDFC Life",
+    "policy_name": "HDFC GROUP GRATUITY BROCHURE",
+    "category": "Pension Plan",
+    "type": "Pension Plan",
+    "product_type": "non-participating",
+    "sum_assured_options": [
+      250000,
+      500000,
+      1000000
+    ],
+    "premium_examples": {},
+    "purchase_price_range": null,
+    "entry_age_min": null,
+    "entry_age_max": null,
+    "maturity_age": null,
+    "min_cover_term_months": null,
+    "max_cover_term_years": null,
+    "group_size_min": null,
+    "plan_options": [],
+    "cover_types": [],
+    "premium_payment_modes": [
+      "single",
+      "limited",
+      "monthly"
+    ],
+    "joint_life_available": false,
+    "surrender_value_available": false,
+    "maturity_benefit": false,
+    "death_benefit": true,
+    "critical_illness_count": null,
+    "has_accidental_death_benefit": false,
+    "exclusions": [
+      "Suicide",
+      "War"
+    ],
+    "riders": [
+      {
+        "name": "Critical Illness",
+        "premium": 3000
+      }
+    ],
+    "annuity_payout_frequency": [
+      "monthly",
+      "yearly"
+    ],
+    "deferment_period_years": null,
+    "return_of_purchase_price": true,
+    "top_up_option": false,
+    "free_look_period_days": null,
+    "grace_period_days": null,
+    "revival_allowed": null,
+    "revival_period_years": null,
+    "policy_loan_available": false,
+    "premium_yearly": {},
+    "eligibility": {
+      "adult_min_age": 18,
+      "adult_max_age": 65
+    },
+    "source_file": "HDFC-GROUP-GRATUITY-BROCHURE.pdf",
+    "content_snippet": "ALL UNIT LINKED POLICIES ARE DIFFERENT FROM TRADITIONAL INSURANCE POLICIES AND ARE\nSUBJECT TO DIFFERENT RISK FACTORS. IN THIS POLICY, THE INVESTMENT RISK IN INVESTMENT\nPORTFOLIO IS BORNE BY THE POLICY..."
+  },
+  {
+    "uin": "101N096V06",
+    "insurer": "HDFC Life",
+    "policy_name": "HDFC Life Group Credit Protect Plus Insurance Plan (2)",
+    "category": "Pension Plan",
+    "type": "Pension Plan",
+    "product_type": "non-linked, non-participating, pure risk",
+    "sum_assured_options": [
+      250000,
+      500000,
+      1000000
+    ],
+    "premium_examples": {},
+    "purchase_price_range": null,
+    "entry_age_min": null,
+    "entry_age_max": null,
+    "maturity_age": null,
+    "min_cover_term_months": 1,
+    "max_cover_term_years": null,
+    "group_size_min": null,
+    "plan_options": [],
+    "cover_types": [
+      "Decreasing Sum Assured"
+    ],
+    "premium_payment_modes": [
+      "single",
+      "limited",
+      "regular",
+      "yearly"
+    ],
+    "joint_life_available": true,
+    "surrender_value_available": true,
+    "maturity_benefit": true,
+    "death_benefit": true,
+    "critical_illness_count": null,
+    "has_accidental_death_benefit": true,
+    "exclusions": [
+      "Suicide",
+      "Pre-existing diseases",
+      "War",
+      "Terrorism",
+      "Nuclear",
+      "Dental",
+      "Self-Inflicted",
+      "Hazardous activities"
+    ],
+    "riders": [
+      {
+        "name": "top-up loans through separate repaym",
+        "premium": 2500
+      },
+      {
+        "name": "critical illness claim has been made in ",
+        "premium": 2500
+      },
+      {
+        "name": "critical illness coverage as well as dea",
+        "premium": 2500
+      }
+    ],
+    "annuity_payout_frequency": [],
+    "deferment_period_years": null,
+    "return_of_purchase_price": true,
+    "top_up_option": false,
+    "free_look_period_days": null,
+    "grace_period_days": null,
+    "revival_allowed": null,
+    "revival_period_years": null,
+    "policy_loan_available": false,
+    "premium_yearly": {},
+    "eligibility": {
+      "adult_min_age": 12,
+      "adult_max_age": 7
+    },
+    "source_file": "HDFC-Life-Group-Credit-Protect-Plus-Insurance-Plan (2).pdf",
+    "content_snippet": "Secure your business dreams\nfrom uncertainties of life!\nGroup Credit Protect Plus Insurance\nA Non Linked Non Participating Pure Risk Group Life Insurance Product\nThe HDFC Life Group Credit Protect Plu..."
+  },
+  {
+    "uin": "101L093V02",
+    "insurer": "HDFC Life",
+    "policy_name": "HDFC Life Group Unit Linked Pension Plan",
+    "category": "Pension Plan",
+    "type": "Pension Plan",
+    "product_type": "non-participating",
+    "sum_assured_options": [
+      250000,
+      500000,
+      1000000
+    ],
+    "premium_examples": {},
+    "purchase_price_range": null,
+    "entry_age_min": null,
+    "entry_age_max": null,
+    "maturity_age": null,
+    "min_cover_term_months": null,
+    "max_cover_term_years": null,
+    "group_size_min": null,
+    "plan_options": [],
+    "cover_types": [],
+    "premium_payment_modes": [
+      "single",
+      "limited",
+      "monthly"
+    ],
+    "joint_life_available": false,
+    "surrender_value_available": false,
+    "maturity_benefit": true,
+    "death_benefit": true,
+    "critical_illness_count": null,
+    "has_accidental_death_benefit": false,
+    "exclusions": [
+      "Suicide",
+      "War"
+    ],
+    "riders": [
+      {
+        "name": "Critical Illness",
+        "premium": 3000
+      }
+    ],
+    "annuity_payout_frequency": [
+      "monthly",
+      "yearly"
+    ],
+    "deferment_period_years": null,
+    "return_of_purchase_price": true,
+    "top_up_option": false,
+    "free_look_period_days": null,
+    "grace_period_days": null,
+    "revival_allowed": null,
+    "revival_period_years": null,
+    "policy_loan_available": false,
+    "premium_yearly": {},
+    "eligibility": {
+      "adult_min_age": 12,
+      "adult_max_age": 5
+    },
+    "source_file": "HDFC-Life-Group-Unit-Linked-Pension-Plan.pdf",
+    "content_snippet": "Growth for your investment.\nSecurity for your employees.\nGroup Unit Linked Pension Plan\nA Non Participating Unit Linked Group Pension Savings Product\nALL UNIT LINKED POLICIES ARE DIFFERENT FROM TRADIT..."
+  },
+  {
+    "uin": "101N095V04",
+    "insurer": "HDFC Life",
+    "policy_name": "HDFC LIFE Group Variable Employee Benefit Plan",
+    "category": "Pension Plan",
+    "type": "Pension Plan",
+    "product_type": "non-linked, non-participating",
+    "sum_assured_options": [
+      250000,
+      500000,
+      1000000
+    ],
+    "premium_examples": {},
+    "purchase_price_range": null,
+    "entry_age_min": null,
+    "entry_age_max": null,
+    "maturity_age": null,
+    "min_cover_term_months": null,
+    "max_cover_term_years": null,
+    "group_size_min": 10,
+    "plan_options": [],
+    "cover_types": [],
+    "premium_payment_modes": [
+      "single",
+      "limited",
+      "quarterly"
+    ],
+    "joint_life_available": false,
+    "surrender_value_available": false,
+    "maturity_benefit": false,
+    "death_benefit": true,
+    "critical_illness_count": null,
+    "has_accidental_death_benefit": false,
+    "exclusions": [
+      "Suicide",
+      "War"
+    ],
+    "riders": [
+      {
+        "name": "Critical Illness",
+        "premium": 3000
+      }
+    ],
+    "annuity_payout_frequency": [
+      "quarterly",
+      "yearly"
+    ],
+    "deferment_period_years": null,
+    "return_of_purchase_price": true,
+    "top_up_option": false,
+    "free_look_period_days": null,
+    "grace_period_days": null,
+    "revival_allowed": null,
+    "revival_period_years": null,
+    "policy_loan_available": false,
+    "premium_yearly": {},
+    "eligibility": {
+      "adult_min_age": 18,
+      "adult_max_age": 65
+    },
+    "source_file": "HDFC-LIFE-Group-Variable-Employee-Benefit-Plan.pdf",
+    "content_snippet": "A One-stop solution to plan for your\nemployees’ financial benefits\nwith\nGroup Variable Employee Benefit Plan\nA Non-Linked Non-Participating Group Life/Pension Savings Product\nGroup Variable Employee B..."
+  },
+  {
+    "uin": null,
+    "insurer": "HDFC Life",
+    "policy_name": "HDFC Life New Group Unit Linked Plan",
+    "category": "Pension Plan",
+    "type": "Pension Plan",
+    "product_type": "non-participating",
+    "sum_assured_options": [
+      250000,
+      500000,
+      1000000
+    ],
+    "premium_examples": {},
+    "purchase_price_range": null,
+    "entry_age_min": null,
+    "entry_age_max": null,
+    "maturity_age": null,
+    "min_cover_term_months": null,
+    "max_cover_term_years": null,
+    "group_size_min": null,
+    "plan_options": [],
+    "cover_types": [],
+    "premium_payment_modes": [
+      "single",
+      "limited",
+      "monthly"
+    ],
+    "joint_life_available": false,
+    "surrender_value_available": false,
+    "maturity_benefit": false,
+    "death_benefit": true,
+    "critical_illness_count": null,
+    "has_accidental_death_benefit": false,
+    "exclusions": [
+      "Suicide",
+      "War"
+    ],
+    "riders": [
+      {
+        "name": "Critical Illness",
+        "premium": 3000
+      }
+    ],
+    "annuity_payout_frequency": [
+      "monthly",
+      "yearly"
+    ],
+    "deferment_period_years": null,
+    "return_of_purchase_price": true,
+    "top_up_option": false,
+    "free_look_period_days": null,
+    "grace_period_days": null,
+    "revival_allowed": null,
+    "revival_period_years": null,
+    "policy_loan_available": false,
+    "premium_yearly": {},
+    "eligibility": {
+      "adult_min_age": 18,
+      "adult_max_age": 65
+    },
+    "source_file": "HDFC-Life-New-Group-Unit-Linked-Plan.pdf",
+    "content_snippet": "ALL UNIT LINKED POLICIES ARE DIFFERENT FROM TRADITIONAL INSURANCE POLICIES\nAND ARE SUBJECT TO DIFFERENT RISK FACTORS. IN THIS POLICY, THE INVESTMENT RISK\nIN INVESTMENT PORTFOLIO IS BORNE BY THE POLICY..."
+  },
+  {
+    "uin": "101N075V03",
+    "insurer": "HDFC Life",
+    "policy_name": "HDFC SL Group Traditional Plan",
+    "category": "Pension Plan",
+    "type": "Pension Plan",
+    "product_type": "non-linked, non-participating",
+    "sum_assured_options": [
+      250000,
+      500000,
+      1000000
+    ],
+    "premium_examples": {},
+    "purchase_price_range": null,
+    "entry_age_min": null,
+    "entry_age_max": null,
+    "maturity_age": null,
+    "min_cover_term_months": null,
+    "max_cover_term_years": null,
+    "group_size_min": 50,
+    "plan_options": [],
+    "cover_types": [],
+    "premium_payment_modes": [
+      "single",
+      "limited",
+      "yearly"
+    ],
+    "joint_life_available": false,
+    "surrender_value_available": false,
+    "maturity_benefit": true,
+    "death_benefit": true,
+    "critical_illness_count": null,
+    "has_accidental_death_benefit": false,
+    "exclusions": [
+      "Suicide",
+      "War"
+    ],
+    "riders": [
+      {
+        "name": "Critical Illness",
+        "premium": 3000
+      }
+    ],
+    "annuity_payout_frequency": [],
+    "deferment_period_years": null,
+    "return_of_purchase_price": true,
+    "top_up_option": false,
+    "free_look_period_days": null,
+    "grace_period_days": null,
+    "revival_allowed": null,
+    "revival_period_years": null,
+    "policy_loan_available": false,
+    "premium_yearly": {},
+    "eligibility": {
+      "adult_min_age": 18,
+      "adult_max_age": 65
+    },
+    "source_file": "HDFC-SL-Group-Traditional-Plan.pdf",
+    "content_snippet": "A comprehensive solution offering\nfinancial benefits to your employees.\nSL Group Traditional Plan\nA Non-Linked Non-Participating Group Life/Pension Savings Product\nSL Group Traditional Plan\nA Non-Link..."
+  },
+  {
+    "uin": "101N174V02",
+    "insurer": "HDFC Life",
+    "policy_name": "HDFC SL Group Traditional Secure Plan",
+    "category": "Pension Plan",
+    "type": "Pension Plan",
+    "product_type": "non-linked, non-participating",
+    "sum_assured_options": [
+      250000,
+      500000,
+      1000000
+    ],
+    "premium_examples": {},
+    "purchase_price_range": null,
+    "entry_age_min": null,
+    "entry_age_max": null,
+    "maturity_age": null,
+    "min_cover_term_months": null,
+    "max_cover_term_years": null,
+    "group_size_min": null,
+    "plan_options": [],
+    "cover_types": [],
+    "premium_payment_modes": [
+      "single",
+      "limited",
+      "yearly"
+    ],
+    "joint_life_available": false,
+    "surrender_value_available": false,
+    "maturity_benefit": true,
+    "death_benefit": true,
+    "critical_illness_count": null,
+    "has_accidental_death_benefit": false,
+    "exclusions": [
+      "Suicide",
+      "War"
+    ],
+    "riders": [
+      {
+        "name": "Critical Illness",
+        "premium": 3000
+      }
+    ],
+    "annuity_payout_frequency": [
+      "yearly"
+    ],
+    "deferment_period_years": null,
+    "return_of_purchase_price": true,
+    "top_up_option": false,
+    "free_look_period_days": null,
+    "grace_period_days": null,
+    "revival_allowed": null,
+    "revival_period_years": null,
+    "policy_loan_available": false,
+    "premium_yearly": {},
+    "eligibility": {
+      "adult_min_age": 18,
+      "adult_max_age": 65
+    },
+    "source_file": "HDFC-SL-Group-Traditional-Secure-Plan.pdf",
+    "content_snippet": "Secure the financial neede of your\nemployees with guaranteed returns.*\nFinancial schemes offered:\nGratuity Superannuation\nGroup Traditional Secure Plan\nA Non-Linked Non-Participating Group Life/Pensio..."
+  },
+  {
+    "uin": "101N208V01",
+    "insurer": "HDFC Life",
+    "policy_name": "sanchay aajeevan guaranteed advantage brochure",
+    "category": "Pension Plan",
+    "type": "Pension Plan",
+    "product_type": null,
+    "sum_assured_options": [
+      1000000
+    ],
+    "premium_examples": {},
+    "purchase_price_range": null,
+    "entry_age_min": null,
+    "entry_age_max": null,
+    "maturity_age": 40,
+    "min_cover_term_months": null,
+    "max_cover_term_years": null,
+    "group_size_min": null,
+    "plan_options": [
+      "A"
+    ],
+    "cover_types": [],
+    "premium_payment_modes": [
+      "single",
+      "limited",
+      "regular",
+      "monthly",
+      "quarterly",
+      "half-yearly"
+    ],
+    "joint_life_available": true,
+    "surrender_value_available": true,
+    "maturity_benefit": true,
+    "death_benefit": true,
+    "critical_illness_count": null,
+    "has_accidental_death_benefit": false,
+    "exclusions": [
+      "Suicide",
+      "War",
+      "Dental"
+    ],
+    "riders": [
+      {
+        "name": "Critical Illness",
+        "premium": 3000
+      }
+    ],
+    "annuity_payout_frequency": [
+      "monthly",
+      "quarterly",
+      "half-yearly",
+      "yearly"
+    ],
+    "deferment_period_years": null,
+    "return_of_purchase_price": true,
+    "top_up_option": false,
+    "free_look_period_days": null,
+    "grace_period_days": null,
+    "revival_allowed": null,
+    "revival_period_years": null,
+    "policy_loan_available": true,
+    "premium_yearly": {},
+    "eligibility": {
+      "adult_min_age": 12,
+      "adult_max_age": 12
+    },
+    "source_file": "sanchay-aajeevan-guaranteed-advantage-brochure.pdf",
+    "content_snippet": "Double your security with\nguaranteed2 benefits & flexibility.\nNNEEWW\nSanchay Aajeevan Guaranteed Advantage\nA Non-Linked, Non-Participating Individual Savings Pension Plan\nf\nelon\ni g\nL\nn 1 I\nn\ni\n- c\nk ..."
+  }
+]

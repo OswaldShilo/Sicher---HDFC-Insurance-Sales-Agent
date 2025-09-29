@@ -1,0 +1,47 @@
+2025-09-28 15:19:01,810 - INFO - Processing category: Annuity Plan
+2025-09-28 15:19:01,810 - INFO - Processing: Bank_infos\Annuity_Plans\HDFC-Life-Pension-Guaranteed-Plan.pdf
+2025-09-28 15:19:15,165 - INFO - Processing: Bank_infos\Annuity_Plans\HDFC-Life-Smart-Pension-Plus.pdf
+2025-09-28 15:19:39,509 - INFO - Processing: Bank_infos\Annuity_Plans\HDFC-Life-Systematic-Pension-Plan-Brochure.pdf
+2025-09-28 15:19:54,177 - INFO - Processing: Bank_infos\Annuity_Plans\HDFC-systematic-retirement-plan.pdf
+2025-09-28 15:20:09,547 - INFO - Processing category: Health Plan
+2025-09-28 15:20:09,548 - INFO - Processing: Bank_infos\Health _Plans\0140217024-HDFC-Life-Group-Critical-Illness-Plus-Rider.pdf
+2025-09-28 15:20:23,827 - INFO - Processing: Bank_infos\Health _Plans\HDFC-Life-Group-Health-Shield.pdf
+2025-09-28 15:20:38,602 - INFO - Processing category: Pension Plan
+2025-09-28 15:20:38,603 - INFO - Processing: Bank_infos\Pension_Plans\0132667023-HDFC-Life-Group-Unit-Linked-Future-Secure-Plan.pdf
+2025-09-28 15:20:52,396 - INFO - Processing: Bank_infos\Pension_Plans\HDFC-GROUP-GRATUITY-BROCHURE.pdf
+2025-09-28 15:21:05,252 - INFO - Processing: Bank_infos\Pension_Plans\HDFC-Life-Group-Credit-Protect-Plus-Insurance-Plan (2).pdf
+2025-09-28 15:21:05,369 - WARNING - Cannot set gray non-stroke color because /'P1' is an invalid float value
+2025-09-28 15:21:19,245 - INFO - Processing: Bank_infos\Pension_Plans\HDFC-Life-Group-Unit-Linked-Pension-Plan.pdf
+2025-09-28 15:21:32,815 - INFO - Processing: Bank_infos\Pension_Plans\HDFC-LIFE-Group-Variable-Employee-Benefit-Plan.pdf
+2025-09-28 15:21:46,114 - INFO - Processing: Bank_infos\Pension_Plans\HDFC-Life-New-Group-Unit-Linked-Plan.pdf
+2025-09-28 15:21:59,034 - INFO - Processing: Bank_infos\Pension_Plans\HDFC-SL-Group-Traditional-Plan.pdf
+2025-09-28 15:22:11,937 - INFO - Processing: Bank_infos\Pension_Plans\HDFC-SL-Group-Traditional-Secure-Plan.pdf
+2025-09-28 15:22:24,384 - INFO - Processing: Bank_infos\Pension_Plans\sanchay-aajeevan-guaranteed-advantage-brochure.pdf
+2025-09-28 15:22:40,825 - INFO - Processing category: Protection Plan
+2025-09-28 15:22:40,828 - INFO - Processing: Bank_infos\Protection_Plans\HDFC-click-2-protect-elite-plus.pdf
+2025-09-28 15:22:55,630 - INFO - Processing: Bank_infos\Protection_Plans\HDFC-Credit-Protect-Plus-Insurance-Plan.pdf
+2025-09-28 15:22:55,784 - WARNING - Cannot set gray non-stroke color because /'P1' is an invalid float value
+2025-09-28 15:23:11,754 - INFO - Processing: Bank_infos\Protection_Plans\HDFC-jeevan-suraksha-plan.pdf
+2025-09-28 15:23:25,337 - INFO - Processing: Bank_infos\Protection_Plans\HDFC-Life-Income-Benefit-on-Accidental-Disability-Riders.pdf
+2025-09-28 15:23:38,822 - INFO - Processing: Bank_infos\Protection_Plans\HDFC-Pradhan-mantri-plan.pdf
+2025-09-28 15:23:52,009 - INFO - Processing: Bank_infos\Protection_Plans\HDFC-suraksha-plan.pdf
+2025-09-28 15:24:05,829 - INFO - Processing: Bank_infos\Protection_Plans\HDFC-Term-Insurance-Plan.pdf
+2025-09-28 15:24:19,572 - INFO - Processing: Bank_infos\Protection_Plans\HDFC_poorna_credit_suraksha.pdf
+2025-09-28 15:24:46,590 - INFO - Processing: Bank_infos\Protection_Plans\HDFC_term_life_plan.pdf
+2025-09-28 15:25:00,313 - INFO - Processing category: Savings Plan
+2025-09-28 15:25:00,315 - INFO - Processing: Bank_infos\Savings_Plans\HDFC-ASSURED-GAIN-PLUS-BROCHURE.pdf
+2025-09-28 15:25:15,121 - INFO - Processing: Bank_infos\Savings_Plans\HDFC-Life-Guaranteed-Savings-Plan_Brochure_Retail.pdf
+2025-09-28 15:25:29,290 - INFO - Processing: Bank_infos\Savings_Plans\HDFC-Life-SARAL-JEEVAN-BROCHURE.pdf
+2025-09-28 15:25:44,909 - INFO - Processing: Bank_infos\Savings_Plans\HDFC-Life-SMART-INCOME-Brochure.pdf
+2025-09-28 15:26:00,700 - INFO - Processing: Bank_infos\Savings_Plans\HDFC-SAMPOORNA-JEEVAN-BROCHURE.pdf
+2025-09-28 15:26:16,555 - INFO - Processing category: ULIP Plan
+2025-09-28 15:26:16,558 - INFO - Processing: Bank_infos\ULIP_Plans\HDFC-Life-Sampoorn-Nivesh-Plus-Retail-Brochure.pdf
+2025-09-28 15:26:34,726 - INFO - Processing: Bank_infos\ULIP_Plans\HDFC-Life-Smart-Protect-Plan-Brochure.pdf
+2025-09-28 15:26:52,701 - INFO - Total policies processed: 31
+2025-09-28 15:26:52,701 - INFO - Master file saved: Bank_infos_complete.json
+2025-09-28 15:26:52,701 - INFO -   Annuity Plan: 4 policies
+2025-09-28 15:26:52,701 - INFO -   Health Plan: 2 policies
+2025-09-28 15:26:52,701 - INFO -   Pension Plan: 9 policies
+2025-09-28 15:26:52,701 - INFO -   Protection Plan: 9 policies
+2025-09-28 15:26:52,701 - INFO -   Savings Plan: 5 policies
+2025-09-28 15:26:52,706 - INFO -   ULIP Plan: 2 policies

@@ -1,0 +1,111 @@
+version: 1
+name: nasscom-insurance-agent
+description: Conversational AI agent to sell insurance using a mock catalog and stub APIs.
+
+intents:
+  - name: greet
+    examples: ["hi", "hello", "good morning"]
+  - name: language_switch
+    examples: ["speak in Hindi", "switch to English"]
+  - name: qualify_need
+    examples: ["I need health insurance", "I want a plan for my family"]
+  - name: profile_risk
+    examples: ["I want a safe plan", "I can take some risk"]
+  - name: request_quote
+    examples: ["how much will it cost?", "give me a premium quote"]
+  - name: compare_policies
+    examples: ["compare this with other plans", "which is better?"]
+  - name: add_rider
+    examples: ["add maternity cover", "include accidental cover"]
+  - name: handle_objection
+    examples: ["too expensive", "another company is cheaper"]
+  - name: negotiate
+    examples: ["any cheaper plan?", "show me another option"]
+  - name: upsell_option
+    examples: ["do you have a better plan?", "higher coverage please"]
+  - name: close_sale
+    examples: ["I’ll buy this", "let’s proceed"]
+  - name: schedule_callback
+    examples: ["call me later", "schedule a call"]
+  - name: escalate_human
+    examples: ["I want to speak to a person"]
+  - name: compliance_disclaimer
+    examples: ["any exclusions?", "what’s the disclaimer?"]
+  - name: goodbye
+    examples: ["bye", "thanks"]
+
+slots:
+  - name: age_band
+    type: categorical
+    values: ["<18", "18-25", "25-30", "30-40", "40-50", "50-60", "60-70", ">70"]
+  - name: dependents_count
+    type: number
+  - name: annual_income_band
+    type: categorical
+    values: ["<5L", "5-10L", "10-15L", "15-25L", ">25L"]
+  - name: existing_cover
+    type: text
+  - name: preferred_premium_band
+    type: categorical
+    values: ["<5k", "5k-10k", "10k-20k", "20k-40k", ">40k"]
+  - name: risk_tolerance
+    type: categorical
+    values: ["conservative", "balanced", "aggressive"]
+  - name: vehicle_type
+    type: categorical
+    values: ["car", "bike", "commercial", "none"]
+  - name: health_flags
+    type: list
+  - name: city_state
+    type: text
+  - name: contact_channel
+    type: categorical
+    values: ["SMS", "Email", "Call", "WhatsApp"]
+
+actions:
+  - name: get_policies
+    type: http
+    method: GET
+    url: http://localhost:8000/policies
+    response_key: policies
+
+  - name: get_quote
+    type: http
+    method: POST
+    url: http://localhost:8000/quote
+    body:
+      age_band: "{{slots.age_band}}"
+      dependents_count: "{{slots.dependents_count}}"
+      annual_income_band: "{{slots.annual_income_band}}"
+      risk_tolerance: "{{slots.risk_tolerance}}"
+      preferred_premium_band: "{{slots.preferred_premium_band}}"
+      health_flags: "{{slots.health_flags}}"
+      city_state: "{{slots.city_state}}"
+      contact_channel: "{{slots.contact_channel}}"
+    response_key: recommended
+
+  - name: create_handoff
+    type: http
+    method: POST
+    url: http://localhost:8000/handoff
+    body:
+      reason: "{{context.handoff_reason}}"
+      customer_profile:
+        age_band: "{{slots.age_band}}"
+        dependents_count: "{{slots.dependents_count}}"
+        annual_income_band: "{{slots.annual_income_band}}"
+        risk_tolerance: "{{slots.risk_tolerance}}"
+        preferred_premium_band: "{{slots.preferred_premium_band}}"
+        health_flags: "{{slots.health_flags}}"
+        city_state: "{{slots.city_state}}"
+        contact_channel: "{{slots.contact_channel}}"
+    response_key: ticket_id
+
+workflow_notes:
+  - "Greeting → detect greet"
+  - "Qualification → fill slots via qualify_need + profile_risk"
+  - "Quote → call get_quote, return 3 plans, include compliance_disclaimer"
+  - "Negotiation → handle objections, offer upsell/fallback (compare_policies, add_rider, negotiate)"
+  - "Closing → close_sale or schedule_callback/escalate_human → create_handoff"
+
+

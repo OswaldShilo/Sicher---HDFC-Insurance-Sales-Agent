@@ -1,0 +1,280 @@
+[
+  {
+    "uin": "101N118V13",
+    "insurer": "HDFC Life",
+    "policy_name": "HDFC Life Pension Guaranteed Plan",
+    "category": "Annuity Plan",
+    "type": "Annuity Plan",
+    "product_type": "non-linked",
+    "sum_assured_options": [
+      250000,
+      500000,
+      1000000
+    ],
+    "premium_examples": {},
+    "purchase_price_range": null,
+    "entry_age_min": null,
+    "entry_age_max": null,
+    "maturity_age": null,
+    "min_cover_term_months": null,
+    "max_cover_term_years": null,
+    "group_size_min": null,
+    "plan_options": [],
+    "cover_types": [],
+    "premium_payment_modes": [
+      "single",
+      "limited",
+      "regular",
+      "monthly",
+      "quarterly",
+      "half-yearly"
+    ],
+    "joint_life_available": true,
+    "surrender_value_available": true,
+    "maturity_benefit": true,
+    "death_benefit": true,
+    "critical_illness_count": null,
+    "has_accidental_death_benefit": false,
+    "exclusions": [
+      "War"
+    ],
+    "riders": [
+      {
+        "name": "Top Up option",
+        "premium": 2500
+      },
+      {
+        "name": "Top Up Option",
+        "premium": 2500
+      },
+      {
+        "name": "top-up option.",
+        "premium": 2500
+      }
+    ],
+    "annuity_payout_frequency": [
+      "monthly",
+      "quarterly",
+      "half-yearly",
+      "yearly"
+    ],
+    "deferment_period_years": null,
+    "return_of_purchase_price": true,
+    "top_up_option": true,
+    "free_look_period_days": null,
+    "grace_period_days": null,
+    "revival_allowed": null,
+    "revival_period_years": null,
+    "policy_loan_available": true,
+    "premium_yearly": {},
+    "eligibility": {
+      "adult_min_age": 12,
+      "adult_max_age": 10
+    },
+    "source_file": "HDFC-Life-Pension-Guaranteed-Plan.pdf",
+    "content_snippet": "Plan now to ensure a lifelong monthly\nincome after your retirement\nLifelong Joint Life feature Guaranteed^ Deferred Annuity\nwith continued Option offers\nregular fixed rate\nincome payouts for both for ..."
+  },
+  {
+    "uin": "101N173V11",
+    "insurer": "HDFC Life",
+    "policy_name": "HDFC Life Smart Pension Plus",
+    "category": "Annuity Plan",
+    "type": "Annuity Plan",
+    "product_type": null,
+    "sum_assured_options": [
+      250000,
+      500000,
+      1000000
+    ],
+    "premium_examples": {},
+    "purchase_price_range": null,
+    "entry_age_min": null,
+    "entry_age_max": null,
+    "maturity_age": null,
+    "min_cover_term_months": null,
+    "max_cover_term_years": null,
+    "group_size_min": null,
+    "plan_options": [],
+    "cover_types": [],
+    "premium_payment_modes": [
+      "single",
+      "limited",
+      "regular",
+      "monthly",
+      "quarterly",
+      "half-yearly"
+    ],
+    "joint_life_available": true,
+    "surrender_value_available": true,
+    "maturity_benefit": true,
+    "death_benefit": true,
+    "critical_illness_count": null,
+    "has_accidental_death_benefit": false,
+    "exclusions": [
+      "War"
+    ],
+    "riders": [
+      {
+        "name": "Critical Illness",
+        "premium": 3000
+      }
+    ],
+    "annuity_payout_frequency": [
+      "monthly",
+      "quarterly",
+      "half-yearly",
+      "yearly"
+    ],
+    "deferment_period_years": null,
+    "return_of_purchase_price": true,
+    "top_up_option": false,
+    "free_look_period_days": null,
+    "grace_period_days": null,
+    "revival_allowed": null,
+    "revival_period_years": null,
+    "policy_loan_available": true,
+    "premium_yearly": {},
+    "eligibility": {
+      "adult_min_age": 12,
+      "adult_max_age": 15
+    },
+    "source_file": "HDFC-Life-Smart-Pension-Plus.pdf",
+    "content_snippet": "Retire smart, with guaranteed* regular income\nand manage inflation with increasing pension!\nW\nNE\nSmart Pension Plus\nINCREASING\nA Non-Linked, Non-Participating Individual/\nPENSION\nGroup Annuity Savings..."
+  },
+  {
+    "uin": "Scope",
+    "insurer": "HDFC Life",
+    "policy_name": "HDFC Life Systematic Pension Plan Brochure",
+    "category": "Annuity Plan",
+    "type": "Annuity Plan",
+    "product_type": "non-linked, pure risk",
+    "sum_assured_options": [
+      250000,
+      500000,
+      1000000
+    ],
+    "premium_examples": {},
+    "purchase_price_range": null,
+    "entry_age_min": null,
+    "entry_age_max": null,
+    "maturity_age": null,
+    "min_cover_term_months": null,
+    "max_cover_term_years": 40,
+    "group_size_min": null,
+    "plan_options": [],
+    "cover_types": [],
+    "premium_payment_modes": [
+      "single",
+      "limited",
+      "regular",
+      "monthly",
+      "quarterly",
+      "half-yearly"
+    ],
+    "joint_life_available": false,
+    "surrender_value_available": true,
+    "maturity_benefit": true,
+    "death_benefit": true,
+    "critical_illness_count": null,
+    "has_accidental_death_benefit": false,
+    "exclusions": [
+      "Suicide",
+      "War",
+      "Dental"
+    ],
+    "riders": [
+      {
+        "name": "Critical Illness",
+        "premium": 3000
+      }
+    ],
+    "annuity_payout_frequency": [
+      "monthly",
+      "quarterly",
+      "half-yearly",
+      "yearly"
+    ],
+    "deferment_period_years": null,
+    "return_of_purchase_price": true,
+    "top_up_option": false,
+    "free_look_period_days": null,
+    "grace_period_days": null,
+    "revival_allowed": null,
+    "revival_period_years": null,
+    "policy_loan_available": true,
+    "premium_yearly": {},
+    "eligibility": {
+      "adult_min_age": 12,
+      "adult_max_age": 45
+    },
+    "source_file": "HDFC-Life-Systematic-Pension-Plan-Brochure.pdf",
+    "content_snippet": "Plan now with assured benefits\nto continue living like today!\nnt\ne\nm\ne y\nR\netir\nR e\na\nd\nAccumulation Multiple Premium\nthrough Assured Benefit^\nPayment Term options\ncompounded on vesting\nwith choice of..."
+  },
+  {
+    "uin": "101N143V08",
+    "insurer": "HDFC Life",
+    "policy_name": "HDFC systematic retirement plan",
+    "category": "Annuity Plan",
+    "type": "Annuity Plan",
+    "product_type": "non-linked, non-participating",
+    "sum_assured_options": [
+      250000,
+      500000,
+      1000000
+    ],
+    "premium_examples": {},
+    "purchase_price_range": null,
+    "entry_age_min": null,
+    "entry_age_max": null,
+    "maturity_age": null,
+    "min_cover_term_months": null,
+    "max_cover_term_years": null,
+    "group_size_min": null,
+    "plan_options": [],
+    "cover_types": [],
+    "premium_payment_modes": [
+      "limited",
+      "regular",
+      "monthly",
+      "quarterly",
+      "half-yearly",
+      "yearly"
+    ],
+    "joint_life_available": false,
+    "surrender_value_available": true,
+    "maturity_benefit": true,
+    "death_benefit": true,
+    "critical_illness_count": null,
+    "has_accidental_death_benefit": false,
+    "exclusions": [
+      "War"
+    ],
+    "riders": [
+      {
+        "name": "Critical Illness",
+        "premium": 3000
+      }
+    ],
+    "annuity_payout_frequency": [
+      "monthly",
+      "quarterly",
+      "half-yearly",
+      "yearly"
+    ],
+    "deferment_period_years": null,
+    "return_of_purchase_price": true,
+    "top_up_option": false,
+    "free_look_period_days": null,
+    "grace_period_days": null,
+    "revival_allowed": null,
+    "revival_period_years": null,
+    "policy_loan_available": true,
+    "premium_yearly": {},
+    "eligibility": {
+      "adult_min_age": 12,
+      "adult_max_age": 7
+    },
+    "source_file": "HDFC-systematic-retirement-plan.pdf",
+    "content_snippet": "Plan for your retirement now and\nenjoy guaranteed lifelong income!\n24-hour\nissuance#\nEnjoy\nretirement on your terms\nSave\nsystematically\nPlan\non time\nGuaranteed* Annuity Limited Premium Deferred\nrate a..."
+  }
+]

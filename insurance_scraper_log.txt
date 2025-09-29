@@ -1,0 +1,100 @@
+2025-09-26 22:18:04,857 - INFO - Document root: Bank_infos
+2025-09-26 22:18:04,861 - INFO - Exploring Annuity_Plans...
+2025-09-26 22:18:04,875 - INFO - Found 4 PDFs in Annuity_Plans
+2025-09-26 22:18:04,878 - INFO - Exploring Pension_Plans...
+2025-09-26 22:18:04,887 - INFO - Found 9 PDFs in Pension_Plans
+2025-09-26 22:18:04,892 - INFO - Exploring Protection_Plans...
+2025-09-26 22:18:04,904 - INFO - Found 14 PDFs in Protection_Plans
+2025-09-26 22:18:04,908 - INFO - Exploring Savings_Plans...
+2025-09-26 22:18:04,912 - INFO - Found 5 PDFs in Savings_Plans
+2025-09-26 22:18:04,916 - INFO - Exploring ULIP_Plans...
+2025-09-26 22:18:04,919 - INFO - Found 2 PDFs in ULIP_Plans
+2025-09-26 22:18:04,919 - INFO - Discovered 34 documents. Processing starts...
+2025-09-26 22:18:04,919 - INFO - Now starting batch enrichment flow...
+2025-09-26 22:18:04,919 - INFO - gemini configured OK
+2025-09-26 22:18:33,562 - ERROR - Exception during processing Bank_infos\Annuity_Plans\HDFC-Life-Pension-Guaranteed-Plan.pdf
+2025-09-26 22:18:34,052 - ERROR - Exception during processing Bank_infos\Annuity_Plans\HDFC-Life-Systematic-Pension-Plan-Brochure.pdf
+2025-09-26 22:18:59,299 - ERROR - Exception during processing Bank_infos\Pension_Plans\HDFC-GROUP-GRATUITY-BROCHURE.pdf
+2025-09-26 22:19:06,875 - WARNING - Cannot set gray non-stroke color because /'P1' is an invalid float value
+2025-09-26 22:19:07,071 - ERROR - Exception during processing Bank_infos\Annuity_Plans\HDFC-systematic-retirement-plan.pdf
+2025-09-26 22:19:26,078 - ERROR - Exception during processing Bank_infos\Pension_Plans\0132667023-HDFC-Life-Group-Unit-Linked-Future-Secure-Plan.pdf
+2025-09-26 22:19:55,355 - ERROR - Exception during processing Bank_infos\Pension_Plans\HDFC-Life-Group-Credit-Protect-Plus-Insurance-Plan (2).pdf
+2025-09-26 22:19:59,455 - ERROR - Exception during processing Bank_infos\Pension_Plans\HDFC-LIFE-Group-Variable-Employee-Benefit-Plan.pdf
+2025-09-26 22:19:59,676 - ERROR - Exception during processing Bank_infos\Pension_Plans\HDFC-Life-Group-Unit-Linked-Pension-Plan.pdf
+2025-09-26 22:20:16,393 - ERROR - Exception during processing Bank_infos\Pension_Plans\HDFC-Life-New-Group-Unit-Linked-Plan.pdf
+2025-09-26 22:20:17,583 - ERROR - Exception during processing Bank_infos\Pension_Plans\HDFC-SL-Group-Traditional-Plan.pdf
+2025-09-26 22:20:18,654 - ERROR - Exception during processing Bank_infos\Pension_Plans\HDFC-SL-Group-Traditional-Secure-Plan.pdf
+2025-09-26 22:20:25,287 - ERROR - Exception during processing Bank_infos\Protection_Plans\Riders_Life_insurance\001.pdf
+2025-09-26 22:20:25,304 - ERROR - Exception during processing Bank_infos\Protection_Plans\Riders_Life_insurance\002.pdf
+2025-09-26 22:20:52,884 - ERROR - Exception during processing Bank_infos\Pension_Plans\sanchay-aajeevan-guaranteed-advantage-brochure.pdf
+2025-09-26 22:20:53,280 - ERROR - Exception during processing Bank_infos\Protection_Plans\Riders_Life_insurance\003.pdf
+2025-09-26 22:21:02,545 - ERROR - Exception during processing Bank_infos\Protection_Plans\Riders_Life_insurance\004.pdf
+2025-09-26 22:21:07,980 - WARNING - Cannot set gray non-stroke color because /'P1' is an invalid float value
+2025-09-26 22:21:25,801 - ERROR - Exception during processing Bank_infos\Protection_Plans\HDFC-click-2-protect-elite-plus.pdf
+2025-09-26 22:21:50,101 - ERROR - Exception during processing Bank_infos\Protection_Plans\HDFC-jeevan-suraksha-plan.pdf
+2025-09-26 22:22:00,940 - ERROR - Exception during processing Bank_infos\Protection_Plans\HDFC-Credit-Protect-Plus-Insurance-Plan.pdf
+2025-09-26 22:22:03,083 - ERROR - Exception during processing Bank_infos\Protection_Plans\Riders_Life_insurance\005.pdf
+2025-09-26 22:22:09,137 - ERROR - Exception during processing Bank_infos\Protection_Plans\HDFC-Life-Income-Benefit-on-Accidental-Disability-Riders.pdf
+2025-09-26 22:22:17,491 - ERROR - Exception during processing Bank_infos\Protection_Plans\HDFC-Pradhan-mantri-plan.pdf
+2025-09-26 22:22:25,434 - ERROR - Exception during processing Bank_infos\Annuity_Plans\HDFC-Life-Smart-Pension-Plus.pdf
+2025-09-26 22:22:27,887 - ERROR - Exception during processing Bank_infos\Protection_Plans\HDFC-suraksha-plan.pdf
+2025-09-26 22:22:29,121 - ERROR - Exception during processing Bank_infos\Protection_Plans\HDFC-Term-Insurance-Plan.pdf
+2025-09-26 22:22:47,198 - ERROR - Exception during processing Bank_infos\Protection_Plans\HDFC_term_life_plan.pdf
+2025-09-26 22:23:02,368 - ERROR - Exception during processing Bank_infos\Savings_Plans\HDFC-Life-Guaranteed-Savings-Plan_Brochure_Retail.pdf
+2025-09-26 22:23:06,435 - ERROR - Exception during processing Bank_infos\Savings_Plans\HDFC-ASSURED-GAIN-PLUS-BROCHURE.pdf
+2025-09-26 22:23:11,877 - ERROR - Exception during processing Bank_infos\Savings_Plans\HDFC-Life-SARAL-JEEVAN-BROCHURE.pdf
+2025-09-26 22:23:17,750 - ERROR - Exception during processing Bank_infos\Savings_Plans\HDFC-Life-SMART-INCOME-Brochure.pdf
+2025-09-26 22:23:42,297 - ERROR - Exception during processing Bank_infos\Savings_Plans\HDFC-SAMPOORNA-JEEVAN-BROCHURE.pdf
+2025-09-26 22:24:30,805 - ERROR - Exception during processing Bank_infos\ULIP_Plans\HDFC-Life-Sampoorn-Nivesh-Plus-Retail-Brochure.pdf
+2025-09-26 22:24:36,193 - ERROR - Exception during processing Bank_infos\ULIP_Plans\HDFC-Life-Smart-Protect-Plan-Brochure.pdf
+2025-09-26 22:24:38,709 - ERROR - Exception during processing Bank_infos\Protection_Plans\HDFC_poorna_credit_suraksha.pdf
+2025-09-26 22:41:53,102 - INFO - Document root: Bank_infos
+2025-09-26 22:41:53,104 - INFO - Exploring Annuity_Plans...
+2025-09-26 22:41:53,106 - INFO - Found 4 PDFs in Annuity_Plans
+2025-09-26 22:41:53,106 - INFO - Exploring Pension_Plans...
+2025-09-26 22:41:53,109 - INFO - Found 9 PDFs in Pension_Plans
+2025-09-26 22:41:53,109 - INFO - Exploring Protection_Plans...
+2025-09-26 22:41:53,109 - INFO - Found 14 PDFs in Protection_Plans
+2025-09-26 22:41:53,109 - INFO - Exploring Savings_Plans...
+2025-09-26 22:41:53,112 - INFO - Found 5 PDFs in Savings_Plans
+2025-09-26 22:41:53,113 - INFO - Exploring ULIP_Plans...
+2025-09-26 22:41:53,113 - INFO - Found 2 PDFs in ULIP_Plans
+2025-09-26 22:41:53,113 - INFO - Discovered 34 documents. Processing starts...
+2025-09-26 22:41:53,113 - INFO - Now starting batch enrichment flow...
+2025-09-26 22:41:53,113 - INFO - gemini configured OK
+2025-09-26 22:41:59,576 - ERROR - Exception during processing Bank_infos\Annuity_Plans\HDFC-Life-Pension-Guaranteed-Plan.pdf
+2025-09-26 22:42:04,072 - ERROR - Exception during processing Bank_infos\Annuity_Plans\HDFC-Life-Systematic-Pension-Plan-Brochure.pdf
+2025-09-26 22:42:08,732 - ERROR - Exception during processing Bank_infos\Annuity_Plans\HDFC-systematic-retirement-plan.pdf
+2025-09-26 22:42:11,663 - ERROR - Exception during processing Bank_infos\Pension_Plans\HDFC-GROUP-GRATUITY-BROCHURE.pdf
+2025-09-26 22:42:12,698 - WARNING - Cannot set gray non-stroke color because /'P1' is an invalid float value
+2025-09-26 22:42:12,825 - ERROR - Exception during processing Bank_infos\Pension_Plans\0132667023-HDFC-Life-Group-Unit-Linked-Future-Secure-Plan.pdf
+2025-09-26 22:42:26,097 - ERROR - Exception during processing Bank_infos\Pension_Plans\HDFC-LIFE-Group-Variable-Employee-Benefit-Plan.pdf
+2025-09-26 22:42:27,042 - ERROR - Exception during processing Bank_infos\Pension_Plans\HDFC-Life-Group-Unit-Linked-Pension-Plan.pdf
+2025-09-26 22:42:27,622 - ERROR - Exception during processing Bank_infos\Pension_Plans\HDFC-Life-Group-Credit-Protect-Plus-Insurance-Plan (2).pdf
+2025-09-26 22:42:34,345 - ERROR - Exception during processing Bank_infos\Pension_Plans\HDFC-SL-Group-Traditional-Plan.pdf
+2025-09-26 22:42:35,412 - ERROR - Exception during processing Bank_infos\Pension_Plans\HDFC-Life-New-Group-Unit-Linked-Plan.pdf
+2025-09-26 22:42:37,157 - ERROR - Exception during processing Bank_infos\Pension_Plans\HDFC-SL-Group-Traditional-Secure-Plan.pdf
+2025-09-26 22:42:41,843 - ERROR - Exception during processing Bank_infos\Protection_Plans\Riders_Life_insurance\001.pdf
+2025-09-26 22:42:44,069 - ERROR - Exception during processing Bank_infos\Protection_Plans\Riders_Life_insurance\002.pdf
+2025-09-26 22:42:55,220 - ERROR - Exception during processing Bank_infos\Protection_Plans\Riders_Life_insurance\003.pdf
+2025-09-26 22:42:56,036 - ERROR - Exception during processing Bank_infos\Pension_Plans\sanchay-aajeevan-guaranteed-advantage-brochure.pdf
+2025-09-26 22:43:08,114 - ERROR - Exception during processing Bank_infos\Protection_Plans\Riders_Life_insurance\004.pdf
+2025-09-26 22:43:12,903 - WARNING - Cannot set gray non-stroke color because /'P1' is an invalid float value
+2025-09-26 22:43:13,757 - ERROR - Exception during processing Bank_infos\Protection_Plans\HDFC-click-2-protect-elite-plus.pdf
+2025-09-26 22:43:30,408 - ERROR - Exception during processing Bank_infos\Protection_Plans\HDFC-jeevan-suraksha-plan.pdf
+2025-09-26 22:43:36,661 - ERROR - Exception during processing Bank_infos\Protection_Plans\Riders_Life_insurance\005.pdf
+2025-09-26 22:43:37,324 - ERROR - Exception during processing Bank_infos\Protection_Plans\HDFC-Credit-Protect-Plus-Insurance-Plan.pdf
+2025-09-26 22:43:42,919 - ERROR - Exception during processing Bank_infos\Protection_Plans\HDFC-Life-Income-Benefit-on-Accidental-Disability-Riders.pdf
+2025-09-26 22:43:43,600 - ERROR - Exception during processing Bank_infos\Protection_Plans\HDFC-Pradhan-mantri-plan.pdf
+2025-09-26 22:43:47,639 - ERROR - Exception during processing Bank_infos\Protection_Plans\HDFC-suraksha-plan.pdf
+2025-09-26 22:43:50,493 - ERROR - Exception during processing Bank_infos\Protection_Plans\HDFC-Term-Insurance-Plan.pdf
+2025-09-26 22:43:50,998 - ERROR - Exception during processing Bank_infos\Annuity_Plans\HDFC-Life-Smart-Pension-Plus.pdf
+2025-09-26 22:43:54,742 - ERROR - Exception during processing Bank_infos\Protection_Plans\HDFC_term_life_plan.pdf
+2025-09-26 22:44:02,322 - ERROR - Exception during processing Bank_infos\Savings_Plans\HDFC-ASSURED-GAIN-PLUS-BROCHURE.pdf
+2025-09-26 22:44:03,520 - ERROR - Exception during processing Bank_infos\Savings_Plans\HDFC-Life-Guaranteed-Savings-Plan_Brochure_Retail.pdf
+2025-09-26 22:44:09,374 - ERROR - Exception during processing Bank_infos\Savings_Plans\HDFC-Life-SARAL-JEEVAN-BROCHURE.pdf
+2025-09-26 22:44:18,852 - ERROR - Exception during processing Bank_infos\Savings_Plans\HDFC-Life-SMART-INCOME-Brochure.pdf
+2025-09-26 22:44:44,241 - ERROR - Exception during processing Bank_infos\Savings_Plans\HDFC-SAMPOORNA-JEEVAN-BROCHURE.pdf
+2025-09-26 22:45:27,471 - ERROR - Exception during processing Bank_infos\ULIP_Plans\HDFC-Life-Sampoorn-Nivesh-Plus-Retail-Brochure.pdf
+2025-09-26 22:45:35,506 - ERROR - Exception during processing Bank_infos\ULIP_Plans\HDFC-Life-Smart-Protect-Plan-Brochure.pdf
+2025-09-26 22:45:37,412 - ERROR - Exception during processing Bank_infos\Protection_Plans\HDFC_poorna_credit_suraksha.pdf

@@ -1,0 +1,160 @@
+[
+  {
+    "uin": "Scope",
+    "insurer": "HDFC Life",
+    "policy_name": "HDFC Life Sampoorn Nivesh Plus Retail Brochure",
+    "category": "ULIP Plan",
+    "type": "ULIP Plan",
+    "product_type": "pure risk",
+    "sum_assured_options": [
+      1000000,
+      2500000
+    ],
+    "premium_examples": {},
+    "purchase_price_range": null,
+    "entry_age_min": null,
+    "entry_age_max": null,
+    "maturity_age": null,
+    "min_cover_term_months": null,
+    "max_cover_term_years": 1,
+    "group_size_min": null,
+    "plan_options": [],
+    "cover_types": [],
+    "premium_payment_modes": [
+      "single",
+      "limited",
+      "regular",
+      "monthly",
+      "quarterly",
+      "half-yearly"
+    ],
+    "joint_life_available": false,
+    "surrender_value_available": false,
+    "maturity_benefit": true,
+    "death_benefit": true,
+    "critical_illness_count": null,
+    "has_accidental_death_benefit": true,
+    "exclusions": [
+      "Suicide",
+      "War",
+      "Terrorism",
+      "Nuclear",
+      "Dental",
+      "Hazardous activities"
+    ],
+    "riders": [
+      {
+        "name": "Linked (UIN: 101A",
+        "premium": 37
+      },
+      {
+        "name": "Linked (UIN: 101A",
+        "premium": 34
+      },
+      {
+        "name": "Linked (UIN: 101A",
+        "premium": 35
+      }
+    ],
+    "annuity_payout_frequency": [
+      "monthly",
+      "quarterly",
+      "half-yearly",
+      "yearly"
+    ],
+    "deferment_period_years": null,
+    "return_of_purchase_price": true,
+    "top_up_option": true,
+    "free_look_period_days": null,
+    "grace_period_days": null,
+    "revival_allowed": null,
+    "revival_period_years": null,
+    "policy_loan_available": true,
+    "premium_yearly": {},
+    "eligibility": {
+      "adult_min_age": 12,
+      "adult_max_age": 35
+    },
+    "source_file": "HDFC-Life-Sampoorn-Nivesh-Plus-Retail-Brochure.pdf",
+    "content_snippet": "IN THIS POLICY, THE INVESTMENT RISK IN INVESTMENT PORTFOLIO IS BORNE BY THE POLICYHOLDER.\nTHE LINKED INSURANCE PRODUCTS DO NOT OFFER ANY LIQUIDITY DURING THE FIRST FIVE YEARS OF THE\nCONTRACT. THE POLI..."
+  },
+  {
+    "uin": "Scope",
+    "insurer": "HDFC Life",
+    "policy_name": "HDFC Life Smart Protect Plan Brochure",
+    "category": "ULIP Plan",
+    "type": "ULIP Plan",
+    "product_type": "pure risk",
+    "sum_assured_options": [
+      250000,
+      500000,
+      1000000
+    ],
+    "premium_examples": {},
+    "purchase_price_range": null,
+    "entry_age_min": null,
+    "entry_age_max": null,
+    "maturity_age": null,
+    "min_cover_term_months": null,
+    "max_cover_term_years": null,
+    "group_size_min": null,
+    "plan_options": [
+      "A"
+    ],
+    "cover_types": [],
+    "premium_payment_modes": [
+      "single",
+      "limited",
+      "regular",
+      "monthly",
+      "quarterly",
+      "half-yearly"
+    ],
+    "joint_life_available": false,
+    "surrender_value_available": false,
+    "maturity_benefit": true,
+    "death_benefit": true,
+    "critical_illness_count": null,
+    "has_accidental_death_benefit": false,
+    "exclusions": [
+      "Suicide",
+      "War",
+      "Dental"
+    ],
+    "riders": [
+      {
+        "name": "Linked (UIN: 101A",
+        "premium": 37
+      },
+      {
+        "name": "Linked (UIN: 101A",
+        "premium": 34
+      },
+      {
+        "name": "Top-Up Premium:",
+        "premium": 2500
+      }
+    ],
+    "annuity_payout_frequency": [
+      "monthly",
+      "quarterly",
+      "half-yearly",
+      "yearly"
+    ],
+    "deferment_period_years": null,
+    "return_of_purchase_price": true,
+    "top_up_option": true,
+    "free_look_period_days": null,
+    "grace_period_days": null,
+    "revival_allowed": null,
+    "revival_period_years": null,
+    "policy_loan_available": true,
+    "premium_yearly": {},
+    "eligibility": {
+      "adult_min_age": 12,
+      "adult_max_age": 13
+    },
+    "source_file": "HDFC-Life-Smart-Protect-Plan-Brochure.pdf",
+    "content_snippet": "IN THIS POLICY, THE INVESTMENT RISK IN INVESTMENT PORTFOLIO IS BORNE BY THE POLICYHOLDER.\nTHE LINKED INSURANCE PRODUCTS DO NOT OFFER ANY LIQUIDITY DURING THE FIRST FIVE YEARS OF\nTHE CONTRACT. THE POLI..."
+  }
+]

@@ -1,0 +1,112 @@
+[
+  {
+    "insurer": "HDFC Life",
+    "policy_name": "Family Floater Health Insurance",
+    "type": "health_floater",
+    "sum_insured": [
+      300000,
+      500000,
+      1000000
+    ],
+    "premium_yearly": {
+      "300000": 7500,
+      "500000": 9500,
+      "1000000": 15000
+    },
+    "eligibility": {
+      "adult_min_age": 18,
+      "adult_max_age": 65,
+      "child_min_age": 3,
+      "child_max_age": 25
+    },
+    "waiting_period": {
+      "initial_days": 30,
+      "pre_existing_months": 36
+    },
+    "exclusions": [
+      "Cosmetic procedures",
+      "Self-inflicted injuries",
+      "Dental treatment (unless accident-related)"
+    ],
+    "riders": [
+      {
+        "name": "Critical Illness",
+        "premium": 3000
+      }
+    ]
+  },
+  {
+    "insurer": "ICICI Lombard",
+    "policy_name": "Family Health Insurance",
+    "type": "health_floater",
+    "sum_insured": [
+      300000,
+      500000,
+      1000000,
+      1500000
+    ],
+    "premium_yearly": {
+      "300000": 8000,
+      "500000": 10000,
+      "1000000": 16000,
+      "1500000": 20000
+    },
+    "eligibility": {
+      "adult_min_age": 18,
+      "adult_max_age": 65,
+      "child_min_age": 3,
+      "child_max_age": 25
+    },
+    "waiting_period": {
+      "initial_days": 30,
+      "pre_existing_months": 24
+    },
+    "exclusions": [
+      "Cosmetic surgery",
+      "War injuries",
+      "Maternity expenses (first year)"
+    ],
+    "riders": [
+      {
+        "name": "Personal Accident Cover",
+        "premium": 2500
+      }
+    ]
+  },
+  {
+    "insurer": "LIC",
+    "policy_name": "Family Floater Health Insurance",
+    "type": "health_floater",
+    "sum_insured": [
+      300000,
+      500000,
+      1000000
+    ],
+    "premium_yearly": {
+      "300000": 7500,
+      "500000": 9500,
+      "1000000": 15000
+    },
+    "eligibility": {
+      "adult_min_age": 18,
+      "adult_max_age": 65,
+      "child_min_age": 3,
+      "child_max_age": 25
+    },
+    "waiting_period": {
+      "initial_days": 30,
+      "pre_existing_months": 36
+    },
+    "exclusions": [
+      "Cosmetic procedures",
+      "Self-inflicted injuries",
+      "Dental treatment (unless accident-related)"
+    ],
+    "riders": [
+      {
+        "name": "Critical Illness",
+        "premium": 3000
+      }
+    ]
+  }
+]

@@ -1,0 +1,145 @@
+[
+  {
+    "insurer": "HDFC Life",
+    "policy_name": "HDFC Life Sampoorn Nivesh Plus Retail Brochure",
+    "type": "ULIP Plan",
+    "category": "ULIP Plan",
+    "sum_insured": [
+      1000000,
+      2500000
+    ],
+    "premium_yearly": {
+      "1000": 1000,
+      "1500": 1500,
+      "1800": 1800,
+      "1874": 1874
+    },
+    "eligibility": {
+      "adult_min_age": 12,
+      "adult_max_age": 35
+    },
+    "waiting_period": {
+      "initial_days": 30,
+      "pre_existing_months": 24
+    },
+    "exclusions": [
+      "Cosmetic procedures",
+      "Self-inflicted injuries",
+      "Dental treatment (unless accident-related)"
+    ],
+    "riders": [
+      {
+        "name": "Linked (UIN: 101A",
+        "premium": 37
+      },
+      {
+        "name": "Linked (UIN: 101A",
+        "premium": 34
+      },
+      {
+        "name": "Linked (UIN: 101A",
+        "premium": 35
+      }
+    ],
+    "ai_enrichment": {
+      "key_features": [
+        "Comprehensive coverage",
+        "Flexible premium options",
+        "Family protection"
+      ],
+      "benefits": {
+        "death_benefit": "Sum assured on death",
+        "maturity_benefit": "Survival benefit as per policy terms"
+      },
+      "plan_details": {
+        "policy_term_range": "10-40 years",
+        "premium_payment_modes": [
+          "yearly",
+          "monthly",
+          "quarterly"
+        ],
+        "unique_features": [
+          "Tax benefits",
+          "Flexible payment options",
+          "Comprehensive coverage"
+        ]
+      },
+      "claims_settlement": {
+        "settlement_time": "15-30 days",
+        "process": "Simplified claims process with minimal documentation"
+      }
+    }
+  },
+  {
+    "insurer": "HDFC Life",
+    "policy_name": "HDFC Life Smart Protect Plan Brochure",
+    "type": "ULIP Plan",
+    "category": "ULIP Plan",
+    "sum_insured": [
+      250000,
+      500000,
+      1000000
+    ],
+    "premium_yearly": {
+      "1000": 1000,
+      "1500": 1500,
+      "1800": 1800,
+      "1874": 1874
+    },
+    "eligibility": {
+      "adult_min_age": 12,
+      "adult_max_age": 13
+    },
+    "waiting_period": {
+      "initial_days": 30,
+      "pre_existing_months": 24
+    },
+    "exclusions": [
+      "Cosmetic procedures",
+      "Self-inflicted injuries",
+      "Dental treatment (unless accident-related)"
+    ],
+    "riders": [
+      {
+        "name": "Linked (UIN: 101A",
+        "premium": 37
+      },
+      {
+        "name": "Linked (UIN: 101A",
+        "premium": 34
+      },
+      {
+        "name": "Top-Up",
+        "premium": 2500
+      }
+    ],
+    "ai_enrichment": {
+      "key_features": [
+        "Comprehensive coverage",
+        "Flexible premium options",
+        "Family protection"
+      ],
+      "benefits": {
+        "death_benefit": "Sum assured on death",
+        "maturity_benefit": "Survival benefit as per policy terms"
+      },
+      "plan_details": {
+        "policy_term_range": "10-40 years",
+        "premium_payment_modes": [
+          "yearly",
+          "monthly",
+          "quarterly"
+        ],
+        "unique_features": [
+          "Tax benefits",
+          "Flexible payment options",
+          "Comprehensive coverage"
+        ]
+      },
+      "claims_settlement": {
+        "settlement_time": "15-30 days",
+        "process": "Simplified claims process with minimal documentation"
+      }
+    }
+  }
+]
