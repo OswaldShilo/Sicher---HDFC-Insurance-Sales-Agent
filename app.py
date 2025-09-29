@@ -7,17 +7,17 @@ from pathlib import Path
 import uuid
 
 
-# JSON file paths for all insurance categories
+# JSON file paths for all insurance categories - pointing to Scraped_Json directory
 JSON_FILES = {
-    "health": Path(__file__).parent / "Health _Plans.json",
-    "pension": Path(__file__).parent / "Pension_Plans.json", 
-    "protection": Path(__file__).parent / "Protection_Plans.json",
-    "savings": Path(__file__).parent / "Savings_Plans.json",
-    "ulip": Path(__file__).parent / "ULIP_Plans.json",
-    "annuity": Path(__file__).parent / "Annuity_Plans.json"
+    "health": Path(__file__).parent / "Scraped_Json" / "Health _Plans.json",
+    "pension": Path(__file__).parent / "Scraped_Json" / "Pension_Plans.json", 
+    "protection": Path(__file__).parent / "Scraped_Json" / "Protection_Plans.json",
+    "savings": Path(__file__).parent / "Scraped_Json" / "Savings_Plans.json",
+    "ulip": Path(__file__).parent / "Scraped_Json" / "ULIP_Plans.json",
+    "annuity": Path(__file__).parent / "Scraped_Json" / "Annuity_Plans.json"
 }
 
-CATALOG_PATH = Path(__file__).parent / "catalog.json"
+CATALOG_PATH = Path(__file__).parent / "Scraped_Json" / "Bank_infos_complete.json"
 
 
 def load_all_policies() -> Dict[str, Any]:
@@ -54,12 +54,12 @@ def load_all_policies() -> Dict[str, Any]:
 
 
 def load_catalog() -> Dict[str, Any]:
-    """Load catalog - try unified policies first, fallback to original catalog.json"""
+    """Load catalog - try unified policies first, fallback to complete JSON"""
     try:
         return load_all_policies()
     except Exception as e:
         print(f"Error loading unified policies: {e}")
-        # Fallback to original catalog.json
+        # Fallback to complete JSON file
         if CATALOG_PATH.exists():
             with CATALOG_PATH.open("r", encoding="utf-8") as f:
                 return json.load(f)
@@ -107,7 +107,7 @@ class HandoffResponse(BaseModel):
     ticket_id: str
 
 
-app = FastAPI(title="Insurance Catalog & Quote Stub API", version="1.0.0")
+app = FastAPI(title="Insurance Catalog & Quote API (Enhanced Data)", version="2.0.0")
 
 app.add_middleware(
     CORSMiddleware,
@@ -192,35 +192,56 @@ def score_policy(profile: QuoteRequest, policy: Dict[str, Any]) -> float:
         if profile.vehicle_type == "bike" and p_type == "motor" and ("Two-Wheeler" in policy.get("policy_name", "") or "Bike" in policy.get("policy_name", "")):
             score += 4
 
-    # Premium band alignment
+    # Premium band alignment - handle both premium_yearly and sum_assured_options
     premium_band = band_to_numeric_range(profile.preferred_premium_band)
     if premium_band:
-        # choose lowest premium in table for baseline affordability
+        # Try premium_yearly first (legacy format)
         premiums: Dict[str, int] = policy.get("premium_yearly", {})
         if premiums:
             min_premium = min(premiums.values())
             if premium_band[0] <= min_premium <= premium_band[1]:
                 score += 5
             else:
-                # distance penalty
                 diff = min(abs(min_premium - premium_band[0]), abs(min_premium - premium_band[1]))
                 score += max(0, 5 - diff / 10000.0)
+        else:
+            # Try sum_assured_options for premium estimation
+            sum_options = policy.get("sum_assured_options", [])
+            if sum_options:
+                # Estimate premium as 1% of sum assured
+                estimated_premium = min(sum_options) * 0.01
+                if premium_band[0] <= estimated_premium <= premium_band[1]:
+                    score += 4
+                else:
+                    diff = min(abs(estimated_premium - premium_band[0]), abs(estimated_premium - premium_band[1]))
+                    score += max(0, 4 - diff / 10000.0)
 
     # Health flags – prefer health policies if any flags present
     if profile.health_flags and p_type == "Health Plan":
         score += 2
 
-    # Age eligibility soft check
+    # Age eligibility soft check - handle both legacy and new format
     if profile.age_band:
         age_range = band_to_numeric_range(profile.age_band)
         elig = policy.get("eligibility", {})
-        min_age = elig.get("adult_min_age")
-        max_age = elig.get("adult_max_age")
+        
+        # Try new format first
+        min_age = elig.get("adult_min_age") or policy.get("entry_age_min")
+        max_age = elig.get("adult_max_age") or policy.get("entry_age_max")
+        
         if age_range and min_age is not None and max_age is not None:
             lo, hi = age_range
             # reward overlap
             if hi >= min_age and lo <= max_age:
                 score += 2
+
+    # Bonus for enhanced data fields
+    if policy.get("uin"):
+        score += 0.5  # Bonus for having UIN
+    if policy.get("critical_illness_count"):
+        score += 1.0  # Bonus for critical illness coverage
+    if policy.get("ai_enrichment"):
+        score += 0.5  # Bonus for AI enrichment
 
     return score
 
@@ -228,12 +249,24 @@ def score_policy(profile: QuoteRequest, policy: Dict[str, Any]) -> float:
 def reason_for(policy: Dict[str, Any], profile: QuoteRequest) -> str:
     p_type = policy.get("type", "")
     name = policy.get("policy_name", "")
+    
+    # Try to get premium from multiple sources
     premiums: Dict[str, int] = policy.get("premium_yearly", {})
-    min_premium = min(premiums.values()) if premiums else 0
+    min_premium = 0
+    if premiums:
+        min_premium = min(premiums.values())
+    else:
+        # Estimate from sum assured
+        sum_options = policy.get("sum_assured_options", [])
+        if sum_options:
+            min_premium = int(min(sum_options) * 0.01)
 
     if p_type == "Health Plan" and "Family" in name and (profile.dependents_count or 0) > 0:
         return "Covers dependents with balanced premium"
     if p_type == "Protection Plan":
+        ci_count = policy.get("critical_illness_count")
+        if ci_count:
+            return f"High coverage with {ci_count} critical illnesses covered"
         return "High coverage at affordable premium"
     if p_type == "Pension Plan":
         return "Secure retirement planning with guaranteed benefits"
@@ -242,7 +275,14 @@ def reason_for(policy: Dict[str, Any], profile: QuoteRequest) -> str:
     if p_type == "ULIP Plan":
         return "Investment-linked insurance with market exposure"
     if p_type == "Annuity Plan":
+        payout_freq = policy.get("annuity_payout_frequency", [])
+        if payout_freq:
+            return f"Guaranteed regular income with {', '.join(payout_freq)} payout options"
         return "Guaranteed regular income for retirement"
+    
+    uin = policy.get("uin")
+    if uin:
+        return f"UIN: {uin} - Lowest annual premium approx {min_premium} with broad suitability"
     return f"Lowest annual premium approx {min_premium} with broad suitability"
 
 
@@ -262,8 +302,18 @@ def post_quote(profile: QuoteRequest) -> QuoteResponse:
 
     recommended: List[RecommendedPlan] = []
     for p in top3:
+        # Try to get premium from multiple sources
         premiums: Dict[str, int] = p.get("premium_yearly", {})
-        premium_value = min(premiums.values()) if premiums else 0
+        if premiums:
+            premium_value = min(premiums.values())
+        else:
+            # Estimate from sum assured
+            sum_options = p.get("sum_assured_options", [])
+            if sum_options:
+                premium_value = int(min(sum_options) * 0.01)
+            else:
+                premium_value = 5000  # Default fallback
+        
         recommended.append(
             RecommendedPlan(
                 policy_id=p.get("policy_id", "unknown"),
@@ -285,6 +335,4 @@ def post_handoff(payload: HandoffRequest) -> HandoffResponse:
 if __name__ == "__main__":
     import uvicorn
 
-    uvicorn.run("app:app", host="0.0.0.0", port=8000, reload=True)
-
-
+    uvicorn.run("app:app", host="0.0.0.0", port=8001, reload=True)

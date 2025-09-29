@@ -508,13 +508,21 @@ class TryInsuranceScraper:
                         all_results.append(policy_data)
 
                 if category_policies:
-                    category_file = f"{category_dir.name}.json"
+                    # Create Scraped_Json directory if it doesn't exist
+                    scraped_dir = Path("Scraped_Json")
+                    scraped_dir.mkdir(exist_ok=True)
+                    
+                    category_file = scraped_dir / f"{category_dir.name}.json"
                     with open(category_file, 'w', encoding='utf-8') as f:
                         json.dump(category_policies, f, indent=2, ensure_ascii=False)
                     self.logger.info(f"✓ Saved {len(category_policies)} policies to {category_file}")
                     category_results[category_label] = len(category_policies)
 
-        master_file = "Bank_infos_complete.json"
+        # Create Scraped_Json directory if it doesn't exist
+        scraped_dir = Path("Scraped_Json")
+        scraped_dir.mkdir(exist_ok=True)
+        
+        master_file = scraped_dir / "Bank_infos_complete.json"
         with open(master_file, 'w', encoding='utf-8') as f:
             json.dump(all_results, f, indent=2, ensure_ascii=False)
 
@@ -534,7 +542,7 @@ def main():
     scraper.process_all_documents("Bank_infos")
     end = time.time()
     print(f"\n⏱️  Total processing time: {end - start:.2f} seconds")
-    print(f"📄 Results saved to individual category JSON files and Bank_infos_complete.json")
+    print(f"📄 Results saved to Scraped_Json/ directory with individual category JSON files and Bank_infos_complete.json")
 
 
 if __name__ == "__main__":
