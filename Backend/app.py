@@ -109,14 +109,35 @@ class HandoffResponse(BaseModel):
 
 app = FastAPI(title="Insurance Catalog & Quote API (Enhanced Data)", version="2.0.0")
 
+# CORS configuration - more restrictive for production
+import os
+allowed_origins = os.environ.get("ALLOWED_ORIGINS", "*").split(",")
+if allowed_origins == ["*"]:
+    allowed_origins = ["*"]  # For development
+else:
+    allowed_origins = [origin.strip() for origin in allowed_origins]
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=allowed_origins,
     allow_credentials=True,
-    allow_methods=["*"],
+    allow_methods=["GET", "POST", "PUT", "DELETE", "OPTIONS"],
     allow_headers=["*"],
 )
 
+
+@app.get("/")
+def health_check():
+    return {"status": "healthy", "service": "Insurance API", "version": "2.0.0"}
+
+@app.get("/health")
+def health_check_detailed():
+    return {
+        "status": "healthy", 
+        "service": "Insurance API", 
+        "version": "2.0.0",
+        "endpoints": ["/policies", "/quote", "/handoff", "/docs"]
+    }
 
 @app.get("/policies")
 def get_policies() -> Dict[str, Any]:
@@ -334,5 +355,7 @@ def post_handoff(payload: HandoffRequest) -> HandoffResponse:
 
 if __name__ == "__main__":
     import uvicorn
+    import os
 
-    uvicorn.run("app:app", host="0.0.0.0", port=8001, reload=True)
+    port = int(os.environ.get("PORT", 8001))
+    uvicorn.run("app:app", host="0.0.0.0", port=port, reload=False)
