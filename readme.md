@@ -10,6 +10,7 @@ Sicher is an AI-powered insurance sales agent specifically trained on HDFC Life 
 - **RESTful API**: FastAPI-based endpoints for easy integration
 - **Multi-Category Support**: Handles Health, Pension, Protection, Savings, ULIP, and Annuity plans
 - **Enhanced Data Fields**: Extracts UIN, product types, eligibility criteria, and operational details
+- **Production Ready**: Deployable to cloud platforms with health monitoring
 
 ## 📋 Prerequisites
 
@@ -25,12 +26,17 @@ Sicher is an AI-powered insurance sales agent specifically trained on HDFC Life 
    cd Sicher---HDFC-Insurance-Sales-Agent
    ```
 
-2. **Install dependencies**
+2. **Navigate to Backend directory**
+   ```bash
+   cd Backend
+   ```
+
+3. **Install dependencies**
    ```bash
    pip install -r requirements.txt
    ```
 
-3. **Set up environment variables (optional)**
+4. **Set up environment variables (optional)**
    ```bash
    # For Gemini AI enrichment (optional)
    export GEMINI_API_KEY="your_gemini_api_key_here"
@@ -42,10 +48,10 @@ Sicher is an AI-powered insurance sales agent specifically trained on HDFC Life 
 
 1. **Run the enhanced API with existing data**
    ```bash
-   python app_todelete.py
+   python app.py
    ```
    - API will be available at `http://localhost:8001`
-   - Uses pre-processed JSON files from `todelete/` directory
+   - Uses pre-processed JSON files from `Scraped_Json/` directory
 
 ### Option 2: Process PDFs from Scratch
 
@@ -59,20 +65,46 @@ Sicher is an AI-powered insurance sales agent specifically trained on HDFC Life 
 
 2. **Run the API**
    ```bash
-   python app_todelete.py
+   python app.py
    ```
+
+## 🌐 Production Deployment
+
+### Deploy to Render (Recommended)
+
+1. **Connect your GitHub repository to Render**
+2. **Create a new Web Service**
+3. **Configure settings:**
+   - Root Directory: `Backend`
+   - Environment: `Python 3`
+   - Build Command: `pip install -r requirements.txt`
+   - Start Command: `uvicorn app:app --host 0.0.0.0 --port $PORT`
+
+4. **Set Environment Variables:**
+   ```
+   GEMINI_API_KEY=your_actual_gemini_api_key_here
+   ALLOWED_ORIGINS=https://your-frontend-domain.com,https://localhost:3000
+   ```
+
+5. **Deploy and get your production URL**
 
 ## 📚 API Documentation
 
 ### Base URLs
-- **Enhanced API**: `http://localhost:8001`
-- **Original API**: `http://localhost:8000`
+- **Local Development**: `http://localhost:8001`
+- **Production**: `https://your-app-name.onrender.com`
 
 ### Interactive Documentation
 - **Swagger UI**: `http://localhost:8001/docs`
 - **ReDoc**: `http://localhost:8001/redoc`
 
 ## 🔌 API Endpoints
+
+### Health Check
+```http
+GET /
+GET /health
+```
 
 ### 1. Get All Policies
 ```http
@@ -166,6 +198,10 @@ Content-Type: application/json
    pip install -r requirements.txt
    ```
 
+4. **CORS issues in production**
+   - Set `ALLOWED_ORIGINS` environment variable
+   - Include your frontend domain in the allowed origins
+
 ## 🤝 Contributing
 
 1. Fork the repository
@@ -188,3 +224,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 **Note**: This project is for educational and demonstration purposes. Always verify insurance information with official HDFC Life sources before making any financial decisions.
+
+---
+
+*The GitHub repository is currently under scrutiny as we are working on the Frontend and tuning in an LLM on this system.*
